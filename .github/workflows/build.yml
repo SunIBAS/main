@@ -26,7 +26,7 @@ jobs:
           mv ./prj2/dist ./prj2_view
           rm -rf ./prj1
           rm -rf ./prj2
-          git checkout views
+          git checkout -b views
           git add .
           git commit -m "build"
           git push
