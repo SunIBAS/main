@@ -29,4 +29,5 @@ jobs:
           git checkout -b views
           git add .
           git commit -m "build"
+          git config --global user.email "1134098699@qq.com"
           git push
