@@ -1,0 +1,30 @@
+name: Build Vue Project
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: build vue project "prj1"
+        working-directory: /prj1
+        run: yarn install
+          yarn build
+      - name: build vue project "prj2"
+        working-directory: /prj2
+        run: yarn install
+          yarn build
+      - name: Commit to special path
+        run: |
+          move ./prj1/dist ./prj1_view
+          move ./prj2/dist ./prj2_view
+          rm -rf ./prj1
+          rm -rf ./prj2
+          git checkout views
+          git add .
+          git commit -m "build"
+          git push
