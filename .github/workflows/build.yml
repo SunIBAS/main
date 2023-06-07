@@ -29,8 +29,8 @@ jobs:
           git config --global user.email "1134098699@qq.com"
           git config --global user.name "ibas"
           git add .
-          git commit -m "build"
-          git push https://${{secrets.ACT_TOKEN}}@github.com/SunIBAS/main.git views --force
+          git commit -m "build at $(date +'%Y-%m-%d %H:%M:%S')"
+          git push --force --quiet https://${{secrets.ACT_TOKEN}}@github.com/SunIBAS/main.git master:views
 #          git config --global user.email "1134098699@qq.com"
 #          git config --global user.name "ibas"
 #          git checkout -b views
