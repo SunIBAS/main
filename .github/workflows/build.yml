@@ -31,4 +31,4 @@ jobs:
           git checkout -b views
           git add .
           git commit -m "build"
-          git push
+          git push --set-upstream origin views
