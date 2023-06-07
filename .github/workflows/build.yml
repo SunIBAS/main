@@ -22,6 +22,7 @@ jobs:
           yarn build
       - name: Commit to special path
         run: |
+          rm -rf .git
           mv ./prj1/dist ./prj1_view
           mv ./prj2/dist ./prj2_view
           rm -rf ./prj1
