@@ -28,8 +28,13 @@ jobs:
           rm -rf ./prj2
           git config --global user.email "1134098699@qq.com"
           git config --global user.name "ibas"
-          git checkout -b views
-          git pull
           git add .
           git commit -m "build"
-          git push --set-upstream origin views --force
+          git push https://${{secrets.ACT_TOKEN}}@github.com/SunIBAS/main.git views --force
+#          git config --global user.email "1134098699@qq.com"
+#          git config --global user.name "ibas"
+#          git checkout -b views
+#          git pull
+#          git add .
+#          git commit -m "build"
+#          git push origin views --force
