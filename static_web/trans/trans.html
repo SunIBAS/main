@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <input type="file"="fileUpload" id="file" />
+    <button onclick="readAsText()">加载</button>
+    <button onclick="ToScroll()">滚动</button>
+    <button onclick="downloadF()">下载</button>
+    <div id="content"></div>
+</body>
+<script>
+    let downloadF = function () {
+        var content = [],
+            filename = "translate.txt";
+        var ps = document.getElementById('content').getElementsByTagName('p');
+        for (var i = 0; i < ps.length; i++) {
+            content.push(ps[i].innerText);
+        }
+        content = content.join('\r\n');
+        // 创建a标签
+        let linkNode = document.createElement('a');
+        linkNode.download = filename;
+        linkNode.style.display = 'none';
+        // 利用Blob对象将字符内容转变成二进制数据
+        let blob = new Blob([content]);
+        linkNode.href = URL.createObjectURL(blob);
+        // 点击
+        document.body.appendChild(linkNode);
+        linkNode.click();
+        // 移除
+        document.body.removeChild(linkNode);
+    };
+
+    function readAsText() {
+        var file = document.getElementById('file').files[0];
+        var reader = new FileReader();
+        reader.readAsText(file); //读取文本内容
+        reader.onload = function (e) {
+            var resulttxt = document.getElementById('content');
+            var txt = "";
+            e.target.result.split('\n').forEach(line => {
+                txt += "<p>" + line + "</p>"
+            });
+            resulttxt.innerHTML = txt;
+        }
+    }
+
+    function ToScroll() {
+        var oneTime = window.innerHeight / 2;
+        var total = document.body.offsetHeight;
+        var cur = 0;
+        var id = setInterval(function () {
+            if (cur < total) {
+                cur += oneTime;
+                window.scrollTo(0, cur);
+            } else {
+                clearInterval(id);
+                window.scrollTo(0, 0);
+                alert("完成");
+            }
+        }, 200)
+    }
+
+    function fileUpload() {
+        console.log('upload');
+    }
+</script>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/layui/2.4.3/css/layui.css">
+<!--    <script src="https://cdn.bootcdn.net/ajax/libs/layui/2.4.3/layui.all.js"></script>-->
+</head>
+<body>
+    <blockquote class="layui-elem-quote">
+        为了加快页面加载和节省服务器流量，所有的文档可以保存在 gitee 上，另外脚本cdn来源为 <a style="color: #2196F3;font-weight: bold;" target="_blank" href="https://www.bootcdn.cn/">BootCDN</a>
+    </blockquote>
+</body>
+<script>
+    const docs = {
+        all : 'https://gitee.com/IBAS0742/shareCode/blob/master/sunibas.cn.utils/readme.md',
+        child: [
+            {
+                href: 'https://gitee.com/IBAS0742/shareCode/blob/master/sunibas.cn.utils/LAADS_Data_%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD.md',
+                text: 'LAADS Data 文件下载'
+            },
+            {
+                href: 'https://gitee.com/IBAS0742/shareCode/blob/master/sunibas.cn.utils/GES_DISC_%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD.md',
+                text: 'GES DISC 文件下载'
+            }
+        ]
+    };
+    window.onload = function () {
+        document.body.innerHTML += `<fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+        <legend>所有的文档在<a target="_blank" style="color: #2196F3;font-weight: bold;" href="${docs.all}">这里</a></legend>
+    </fieldset>
+    <ul class="layui-timeline">
+        ${(_ => {
+            let d = "";
+            docs.child.forEach(dd => {
+                d += `<li class="layui-timeline-item"><div class="layui-timeline-content layui-text"><div class="layui-timeline-title"><a target="_blank" href="${dd.href}">${dd.text}</a></div></div></li>`;
+            });
+            return d;
+        })()}
+    </ul>`;
+    }
+</script>
+</html>

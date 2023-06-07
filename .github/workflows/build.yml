@@ -10,16 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: build vue project "prj1"
-        working-directory: ./prj1
-        run: |
-          yarn install
-          yarn build
-      - name: build vue project "prj2"
-        working-directory: ./prj2
-        run: |
-          yarn install
-          yarn build
       - name: Commit to special path
         env:
           # 仓库用户名
@@ -39,10 +29,3 @@ jobs:
           git init && git add .
           git commit -m "build at $(date +'%Y-%m-%d %H:%M:%S')"
           git push --force --quiet https://$GITHUB_TOKEN@github.com/SunIBAS/main.git master:views
-#          git config --global user.email "1134098699@qq.com"
-#          git config --global user.name "ibas"
-#          git checkout -b views
-#          git pull
-#          git add .
-#          git commit -m "build"
-#          git push origin views --force

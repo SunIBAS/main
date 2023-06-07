@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layers Control Tutorial - Leaflet</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/leaflet.css"/>
+    <script src="./dist/leaflet.js"></script>
+    <script src="./dist/L.Path.Transform-src.js"></script>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        #map {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+<div id='map'></div>
+
+<script>
+    L.Control.SelectionAndEchart = L.Control.extend({
+        //在此定义参数
+        options: {
+            position: 'topleft'
+        },
+        //在此初始化
+        initialize: function (options) {
+            this.id = `_l_c_id_${parseInt(Math.random() * 10000)}`;
+            if (options.id) {
+                this.id = options.id;
+                delete options.id;
+            }
+            L.Util.extend(this.options, options);
+        },
+        onAdd: function (map) {
+            this._container = document.createElement('div');
+            this._container.id = this.id;
+            this._container.innerHTML = "";
+            return this._container;
+        },
+        setOpacity(n) {
+            this._container.style.opacity = n;
+        }
+    });
+    L.control.selectionAndEchart = function (opts) {
+        return new L.Control.SelectionAndEchart(opts);
+    };
+    var grayscaleLayer= L.tileLayer('http://map.geoq.cn/ArcGIS/rest/services/ChinaOnlineCommunity/MapServer/tile/{z}/{y}/{x}', {id: 'map11',maxZoom: 16,minZoom: 4});
+    var imageLayer = null;
+    let controlObj = null;
+
+    var map = L.map('map', {
+        minZoom: 4.5,
+        maxZoom: 12,
+        center: [39.73, -104.99],
+        zoom: 4.5,
+        zoomDelta: 0.5,//点击+-按钮的放缩刻度尺度，默认值1
+        zoomSnap: 0.5,//地图能放缩的zoom的最小刻度尺度，默认值1
+        fullscreenControl: false,//全屏控件，不显示
+        zoomControl: false,//放大缩小控件，不显示
+        attributionControl: false//右下角属性控件，不显示
+    });
+    map.addLayer(grayscaleLayer);
+
+    function 打开图片并加载到地图中() {
+        function getObjectURL(file) {
+            var url = null
+            if (window.createObjectURL != undefined) { // basic
+                url = window.createObjectURL(file)
+            } else if (window.URL != undefined) { // mozilla(firefox)
+                url = window.URL.createObjectURL(file)
+            } else if (window.webkitURL != undefined) { // webkit or chrome
+                url = window.webkitURL.createObjectURL(file)
+            }
+            return url;
+        }
+        let inp = document.createElement('input');
+        inp.style.display = 'none';
+        inp.type = 'file';
+        document.body.appendChild(inp);
+        inp.onchange = function () {
+            if (inp.files.length) {
+                let url = getObjectURL(inp.files[0]);
+                if (imageLayer) {
+                    imageLayer.remove();
+                }
+                let img = new Image();
+                img.src = url;
+                img.onload = function () {
+                    console.log(`width = ${img.width}\theight = ${img.height}`);
+                    let width = img.width;
+                    let height = img.height;
+                    while (width > 100) {
+                        width /= 2;
+                        height /= 2;
+                    }
+                    while (height > 100) {
+                        width /= 2;
+                        height /= 2;
+                    }
+                    var imageBounds = [[0, 0], [height,width]];//图片的经纬度范围，西南角点,东北角点(纬度、经度)
+                    imageLayer =L.imageOverlay(url, imageBounds,{opacity:0.8});//opacity是透明度
+                    map.addLayer(imageLayer);
+                    map.flyToBounds([[0, 0], [height,width]]);
+                    controlObj.init();
+                }
+            }
+            inp.remove();
+        }
+        inp.click();
+    }
+
+    {
+        // 定义打开图片按钮
+        var openImageControl = L.control.selectionAndEchart({id:'openImage',position: 'topleft'});
+        openImageControl.addTo(map);
+        let openImageDiv = document.getElementById('openImage');
+        let btn = document.createElement('button');
+        btn.onclick = 打开图片并加载到地图中;
+        btn.innerText = `打开图片`;
+        openImageDiv.appendChild(btn);
+    }
+
+    {
+        // 定义控制模块
+        controlObj = (new class {
+            constructor() {
+                let controlControl = L.control.selectionAndEchart({id:'control',position: 'topleft'});
+                controlControl.addTo(map);
+                this.controlControl = controlControl;
+                this.controlDiv = document.getElementById('control');
+                // this.init();
+                this.rectangle = null;
+            }
+
+            init() {
+                if (this.rectangle) {
+                    this.rectangle.remove();
+                }
+                this.rectangle = new L.Rectangle(imageLayer.getBounds(), {
+                    weight: 2,
+                    draggable: true,
+                    transform: true,
+                    fillColor: "transport",
+                    fillOpacity: 0
+                }).addTo(map);
+
+                this.rectangle.transform.enable({ rotation: false, scaling: true, uniformScaling:true });
+
+                //旋转完执行，一般是为了放中间的图标，所以才要获取位置信息
+                this.rectangle.on("rotateend", function (e) {
+                    console.log(e.target.getBounds());
+                    imageLayer.setBounds(e.target.getBounds());
+                })
+
+                //放大缩小执行，一般是为了放中间的图标，所以才要获取位置信息
+                this.rectangle.on("scaleend ", function (e) {
+                    console.log(e.target.getBounds());
+                    imageLayer.setBounds(e.target.getBounds());
+                })
+                //拖动完执行,一般是为了放中间的图标，所以才要获取位置信息
+                this.rectangle.on("dragend ", function (e) {
+                    console.log(e.target.getBounds());
+                    imageLayer.setBounds(e.target.getBounds());
+                });
+            }
+        });
+
+    }
+</script>
+
+
+
+</body>
+</html>

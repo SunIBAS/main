@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>身份证生成</title>
+    <style>
+        @font-face {
+            font-family: "hei";
+            src: url("fonts/hei.ttf")
+        }
+        @font-face {
+            font-family: "valid";
+            src: url("fonts/fzzdxjw-gb1-0.ttf")
+        }
+        @font-face {
+            font-family: "idn";
+            src: url("fonts/ocrb10bt.ttf")
+        }
+        div#info div {
+            height: 25px;
+            line-height: 25px;
+            display: inline-block;
+            width: 33%;
+        }
+        div#info label {
+            width: 80px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div id="info">
+    </div>
+    <button onclick="build()">生成</button>
+    <div>
+        <img width="500" id="right" src="" alt="">
+        <img width="500" id="left" src="" alt="">
+    </div>
+    <canvas id="tmp" style="display:none;" width="1000" height="605"></canvas>
+    <canvas style="display: none" id="canvas"></canvas>
+</body>
+<script>
+    class CanObj{
+        constructor() {
+            this.tmpCan = document.getElementById('tmp');
+            this.can = document.getElementById('canvas');
+            this.tmpCtx = this.tmpCan.getContext('2d');
+            this.rightImage = document.getElementById('right');
+            this.leftImage = document.getElementById('left');
+            this.ctx = null;
+            this.img = null;
+            this.ok = false;
+            this._init();
+        }
+
+        _initImg() {
+            if (this.ok) {
+                this.ctx.drawImage(this.img,0,0,this.img.width,this.img.height);
+            } else {
+                this.img = new Image();
+                this.img.src = "./images/empty.png";
+                this.img.onload = () => {
+                    this.ok = true;
+                    this.ctx.drawImage(this.img,0,0,this.img.width,this.img.height);
+                }
+            }
+        }
+        _init() {
+            this.can.width = "1240";
+            this.can.height = "1760";
+            this.ctx = this.can.getContext('2d');
+            this.ctx.textAlign = 'left';
+            this.ctx.textBaseline  = 'top';
+            this.ctx.clearRect(0,0,this.can.width,this.can.height);
+            this._initImg();
+        }
+        getArea() {
+            if (!this.ok) {
+                return;
+            }
+            let data = this.ctx.getImageData(135,237,1088 - 135,842 - 237);
+            this.tmpCtx.putImageData(data,0,0);
+            this.rightImage.src = this.tmpCan.toDataURL("image/png");
+            data = this.ctx.getImageData(135,949,1088 - 135,842 - 237);
+            this.tmpCtx.putImageData(data,0,0);
+            this.leftImage.src = this.tmpCan.toDataURL("image/png");
+        }
+    }
+    class Info{
+        constructor(canObj) {
+            this.info = document.getElementById('info');
+            this.configs = [
+                {
+                    label: "name",
+                    content: "小新",
+                    left: 340,
+                    top: 335,
+                    font: "36px hei"
+                },
+                {
+                    label: "sex",
+                    content: "男",
+                    left: 340,
+                    top: 405,
+                    font: "33px hei"
+                },
+                {
+                    label: "people",
+                    content: "汉族",
+                    left: 523,
+                    top: 405,
+                    font: "33px hei"
+                },
+                {
+                    label: "year",
+                    content: "2020",
+                    left: 340,
+                    top: 476,
+                    font: "33px valid"
+                },
+                {
+                    label: "month",
+                    content: "1",
+                    left: 340,
+                    top: 476,
+                    font: "33px valid"
+                },
+                {
+                    label: "date",
+                    content: "1",
+                    left: 585,
+                    top: 476,
+                    font: "33px valid"
+                },
+                {
+                    label: "address",
+                    content: "春日部"
+                },
+                {
+                    label: "number",
+                    content: "11223344",
+                    left: 475,
+                    top: 725,
+                    font: "33px idn"
+                },
+                {
+                    label: "gongan",
+                    content: "春日部公安局分局",
+                    left: 525,
+                    top: 1375,
+                    font: "33px hei"
+                },
+                {
+                    label: "during",
+                    content: "2020.01.01-2030.01.01",
+                    left: 525,
+                    top: 1448,
+                    font: "33px valid"
+                },
+            ];
+            this._init();
+            this.canObj = canObj;
+        }
+        _init() {
+            this.configs.forEach(cof => {
+                this.info.innerHTML += `<div>
+<label>${cof.label}</label><input tar="${cof.label}" value="${cof.content}"/>
+</div>`;
+            });
+        }
+
+        getAddrText(text) {
+            let brnum = 0;
+            let textArr = [];
+            text.split('').forEach(t => {
+                brnum += isNaN(parseInt(t)) ? 1 : 0.5;
+            });
+            let n = Math.ceil(brnum / 11);
+            for (let i = 0; i < n; i++) {
+                textArr[i] = text.slice(i * 11, 11 * (i + 1));
+            }
+            return textArr.map((t, i) => {
+                return {
+                    text: t,
+                    left: 335,
+                    top: 542 + 48 * i
+                };
+            });
+        }
+
+        draw() {
+            let config = {};
+            let inps = info.info.getElementsByTagName('input');
+            for (let i = 0;i < inps.length;i++) {
+                config[inps[i].getAttribute('tar')] = inps[i].value;
+            }
+            if (config.month.length == 2) {
+                this.configs[4].left = 475;
+            } else {
+                this.configs[4].left = 485;
+            }
+            if (config.date.length == 2) {
+                this.configs[5].left = 580;
+            } else {
+                this.configs[5].left = 585;
+            }
+            this.canObj._init();
+            this.configs.forEach(cof => {
+                this.canObj.ctx.font = cof.font;
+                this.canObj.ctx.fillText(config[cof.label],cof.left,cof.top);
+            });
+            this.getAddrText(config.address).forEach(cof => {
+                this.canObj.ctx.font = "33px hei";
+                this.canObj.ctx.fillText(cof.text,cof.left,cof.top);
+            });
+        }
+    }
+    window.onload = function () {
+        window.canObj = new CanObj();
+        window.info = new Info(canObj);
+        let id = setInterval(function () {
+            if (window.canObj.ok) {
+                canObj.getArea();
+                window.build = function() {
+                    info.draw();
+                    canObj.getArea();
+                }
+                clearInterval(id);
+            }
+        });
+    }
+
+</script>
+</html>

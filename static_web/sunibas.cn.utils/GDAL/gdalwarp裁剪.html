@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gdalwarp</title>
+    <style>
+        .code-div {
+            olor: #656565;
+            line-height: 1.42857143;
+        }
+        .code-div pre {
+            display: block;
+            padding: 9.5px;
+            margin: 0 0 10px;
+            font-size: 13px;
+            line-height: 1.42857143;
+            color: #333;
+            word-break: break-all;
+            word-wrap: break-word;
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .code-div pre code {
+            padding: 0;
+            font-size: inherit;
+            color: inherit;
+            white-space: pre-wrap;
+            background-color: transparent;
+            border-radius: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="code-div">
+    <div>使用方法</div>
+    <pre>
+<code class="language-batch">gdalwarp
+    [--help-general] [--formats]
+    [-s_srs srs_def] [-t_srs srs_def] [-to <span class="s2">"NAME=VALUE"</span>]
+    [-order n | -tps | -rpc | -geoloc] [-et err_threshold]
+    [-refine_gcps tolerance [minimum_gcps]]
+    [-te xmin ymin xmax ymax] [-te_srs srs_def]
+    [-tr xres yres] [-tap] [-ts width height]
+    [-ovr level<span class="p">|</span><span class="n">AUTO</span><span class="p">|</span><span class="n">AUTO</span>-n<span class="p">|</span><span class="n">NONE</span>] [-wo <span class="s2">"NAME=VALUE"</span>] [-ot Byte<span class="n">/Int16/...]</span> [-wt Byte<span class="n">/Int16]</span>
+    [-srcnodata <span class="s2">"value [value...]"</span>] [-dstnodata <span class="s2">"value [value...]"</span>] -dstalpha
+    [-r resampling_method] [-wm memory_in_mb] [-multi] [-q]
+    [-cutline datasource] [-cl layer] [-cwhere expression]
+    [-csql statement] [-cblend dist_in_pixels] [-crop_to_cutline]
+    [-of format] [-co <span class="s2">"NAME=VALUE"</span>]* [-overwrite]
+    [-nomd] [-cvmd meta_conflict_value] [-setci] [-oo NAME<span class="o">=</span>VALUE]*
+    [-doo NAME<span class="o">=</span>VALUE]*
+    srcfile* dstfile</code>
+    </pre>
+</div>
+<div class="code-div">
+    <div>实例</div>
+    <pre>
+<code class="language-batch">gdalwarp --config GDAL_CACHEMAX <span class="m">512</span> --config GDAL_FILENAME_IS_UTF<span class="m">8</span> NO --config SHAPE_ENCODING UTF<span class="m">-8</span> --config GDAL_DATA gdal_data_folder -crop_to_cutline -cutline region.shp -cwhere NAME<span class="o">=</span><span class="s1">'北京市'</span> -multi -wo NUM_THREADS<span class="o">=</span>ALL_CPUS -wm <span class="m">512</span> -r cubic -overwrite china.tif 北京市.tif</code>
+    </pre>
+</div>
+<div class="code-div">
+    <div>参数说明</div>
+    <pre>
+<code class="language-python"><span class="o">--</span><span class="n">config</span> <span class="n">GDAL_CACHEMAX</span>              <span class="o">---</span><span class="n">default</span> <span class="n">GDAL</span> <span class="n">raster</span> <span class="n">block</span> <span class="n">cache</span> <span class="n">size</span>
+<span class="o">--</span><span class="n">config</span> <span class="n">GDAL_FILENAME_IS_UTF8</span> <span class="n">NO</span>   <span class="o">---</span><span class="err">使</span><span class="n">GDAL</span><span class="err">支持中文路径</span>
+<span class="o">--</span><span class="n">config</span> <span class="n">SHAPE_ENCODING</span> <span class="n">UTF</span><span class="o">-</span><span class="mi">8</span>       <span class="o">---</span><span class="err">使</span><span class="n">GDAL</span><span class="err">支持中文</span><span class="n">shapefile</span><span class="err">表格</span>
+<span class="o">--</span><span class="n">config</span> <span class="n">GDAL_DATA</span> <span class="n">gdal_data_folder</span> <span class="o">---</span><span class="err">设置</span><span class="n">GDAL</span><span class="err">数据目录，其中存放了各种投影、坐标系参数</span>
+<span class="o">-</span><span class="n">crop_to_cutline</span>                    <span class="o">---</span><span class="err">裁剪后去掉黑边</span>
+<span class="o">-</span><span class="n">cutline</span> <span class="n">region</span><span class="o">.</span><span class="n">shp</span>                 <span class="o">---</span><span class="err">用于裁剪的</span><span class="n">shapefile</span><span class="err">文件</span>
+<span class="o">-</span><span class="n">cwhere</span> <span class="n">NAME</span><span class="o">=</span><span class="s">'北京市'</span>                 <span class="o">---</span><span class="err">选择用于裁剪的元素，如果不设置则使用整个</span><span class="n">shapefile</span><span class="err">边界进行裁剪</span>
+<span class="o">-</span><span class="n">multi</span>                              <span class="o">---</span><span class="err">利用多线程提高处理效率</span>
+<span class="o">-</span><span class="n">wo</span> <span class="n">NUM_THREADS</span><span class="o">=</span><span class="n">ALL_CPUS</span>            <span class="o">---</span><span class="err">使用所有</span><span class="n">CPU</span><span class="err">资源进行计算，提高处理效率</span>
+<span class="o">-</span><span class="n">wm</span> <span class="mi">512</span>                             <span class="o">---</span><span class="err">可以使用的内存大小（</span><span class="n">MB</span><span class="err">）</span>
+<span class="o">-</span><span class="n">r</span> <span class="n">cubic</span>                            <span class="o">---</span><span class="err">采用方式为双三次卷积</span>
+<span class="o">-</span><span class="n">overwrite</span>                          <span class="o">---</span><span class="err">如果结果文件已存在则覆盖</span>
+<span class="n">china</span><span class="o">.</span><span class="n">tif</span>                           <span class="o">---</span><span class="err">带裁剪影像</span>
+<span class="err">北京市</span><span class="o">.</span><span class="n">tif</span>                            <span class="o">---</span><span class="err">结果影像</span></code>
+    </pre>
+</div>
+</body>
+</html>
