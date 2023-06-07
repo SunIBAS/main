@@ -19,11 +19,6 @@ jobs:
           # GitHub Token
           GITHUB_TOKEN: ${{ secrets.ACT_TOKEN }}
         run: |
-          rm -rf .git
-          mv ./prj1/dist ./prj1_view
-          mv ./prj2/dist ./prj2_view
-          rm -rf ./prj1
-          rm -rf ./prj2
           git config --global user.email "1134098699@qq.com"
           git config --global user.name "ibas"
           git init && git add .
