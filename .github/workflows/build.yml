@@ -28,7 +28,6 @@ jobs:
           rm -rf ./prj2
           git config --global user.email "1134098699@qq.com"
           git config --global user.name "ibas"
-#          git add .
           git init && git add .
           git commit -m "build at $(date +'%Y-%m-%d %H:%M:%S')"
           git push --force --quiet https://${{secrets.ACT_TOKEN}}@github.com/SunIBAS/main.git master:views
