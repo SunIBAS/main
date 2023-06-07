@@ -19,6 +19,7 @@ jobs:
           # GitHub Token
           GITHUB_TOKEN: ${{ secrets.ACT_TOKEN }}
         run: |
+          rm -rf .git
           git config --global user.email "1134098699@qq.com"
           git config --global user.name "ibas"
           git init && git add .
