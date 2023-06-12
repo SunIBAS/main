@@ -82,7 +82,13 @@
             let img = p[i].img.split('/');
             let nes = p[i].nes.split('/');
             let tid = p[i].url.split('?')[1].split('&').map(_=>_.split('=')).filter(_ => _[0] === 'id')[0][1];
-            innerHtml += `<div tar="${nes[nes.length - 1]}" tid="${tid}" class="item"><div class="item-img-box"><img width="auto" height="200px" class="item-img" src='./games/${img[img.length - 1]}'/></div><div class="item-text">${p[i].name}</div></div>`
+            innerHtml += `
+<div tar="${nes[nes.length - 1]}" tid="${tid}" class="item">
+    <div class="item-img-box">
+        <img width="auto" height="200px" class="item-img" src='./games/${img[img.length - 1]}'/>
+    </div>
+    <div class="item-text">${p[i].name}</div>
+</div>`
             if (j === 4) {
                 innerHtml += '</div>';
                 j = -1;

@@ -1,4 +1,160 @@
 [
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "选择游戏...",
+      "nes": "http://yx.1dly.cn/roms/选择游戏..."
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "超级玛丽",
+      "nes": "http://yx.1dly.cn/roms/roms/Super Mario Bros. (JU) (PRG0) [!].nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "冒险岛",
+      "nes": "http://yx.1dly.cn/roms/roms/maoxiandao.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "魂斗罗",
+      "nes": "http://yx.1dly.cn/roms/roms/hun.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "中国象棋",
+      "nes": "http://yx.1dly.cn/roms/roms/Zhong Guo Xiang Qi.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "坦克大战",
+      "nes": "http://yx.1dly.cn/roms/roms/tanke.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "雪人兄弟",
+      "nes": "http://yx.1dly.cn/roms/roms/xueren.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "越野摩托",
+      "nes": "http://yx.1dly.cn/roms/roms/Motor.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "赤影战士",
+      "nes": "http://yx.1dly.cn/roms/roms/Kage.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "炸弹人",
+      "nes": "http://yx.1dly.cn/roms/roms/zhadan.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "马戏团",
+      "nes": "http://yx.1dly.cn/roms/roms/ma.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "影子传说",
+      "nes": "http://yx.1dly.cn/roms/roms/Kage.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "沙罗曼蛇",
+      "nes": "http://yx.1dly.cn/roms/roms/Life Force [!].nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "脱狱",
+      "nes": "http://yx.1dly.cn/roms/roms/Cross Fire (J).nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "功夫",
+      "nes": "http://yx.1dly.cn/roms/roms/(J) (V1.2) Yie Ar Kung-Fu [!].nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "双截龙2",
+      "nes": "http://yx.1dly.cn/roms/roms/Double Dragon2.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "三目童子",
+      "nes": "http://yx.1dly.cn/roms/roms/3.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "恶魔城1",
+      "nes": "http://yx.1dly.cn/roms/roms/emc.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "洛克人1",
+      "nes": "http://yx.1dly.cn/roms/roms/lkr.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "人间兵器",
+      "nes": "http://yx.1dly.cn/roms/roms/rjbq.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "忍者神龟1",
+      "nes": "http://yx.1dly.cn/roms/roms/sg1.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "激龟快打",
+      "nes": "http://yx.1dly.cn/roms/roms/sg4.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "泡泡龙2",
+      "nes": "http://yx.1dly.cn/roms/roms/ppl2.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "西游记1",
+      "nes": "http://yx.1dly.cn/roms/roms/xyj1.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "沙罗曼蛇",
+      "nes": "http://yx.1dly.cn/roms/roms/Lifeforce (U).nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "淘金者",
+      "nes": "http://yx.1dly.cn/roms/roms/Championship Lode Runner (J).nes"
+    },
   {
     "url": "https://www.yikm.net/play?id=4137&n=L2Zjcm9tL3NqL0NvbnRyYSAoVSkgWyFdLm5lcw==&t=%E9%AD%82%E6%96%97%E7%BD%97(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/sj/436a.png",
     "img": "https://img.1990i.com/fcpic/sj/436a.png",
