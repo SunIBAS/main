@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script crossorigin="anonymous" integrity="sha512-IaQE1lNGUfLAp14jFAF5d0qH2bS/ruJo1jJ5eAxWtQSjSUcP+ZHepMZoFwHkzwjjYzoBS3ZbeD4WpjDxnhsNRA==" src="https://lib.baomitu.com/echarts/5.1.1/echarts.min.js"></script>
+    <script src="./ndsolve.js"></script>
+    <title>Title</title>
+    <style>
+        ::-webkit-scrollbar {
+            /*滚动条整体样式*/
+            width : 3px;  /*高宽分别对应横竖滚动条的尺寸*/
+            height: 1px;
+        }
+        ::-webkit-scrollbar-thumb {
+            /*滚动条里面小方块*/
+            border-radius   : 10px;
+            background-color: #012d3e;
+            background-image: -webkit-linear-gradient(
+                    45deg,
+                    rgba(255, 255, 255, 0.2) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, 0.2) 50%,
+                    rgba(255, 255, 255, 0.2) 75%,
+                    transparent 75%,
+                    transparent
+            );
+        }
+        ::-webkit-scrollbar-track {
+            /*滚动条里面轨道*/
+            box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+            background   : #ededed;
+            border-radius: 10px;
+        }
+
+        body {
+            padding: 0 5px;
+            margin: 0;
+            border: none;
+        }
+
+        .code-part {
+            background: #313335;
+            padding: 5px 0;
+        }
+
+        .code-part li {
+            list-style-position: outside;
+            background: #2b2b2b;
+            color: #ffffff;
+            margin-left: 5px;
+            border-left: 4px solid #2196f3;
+            padding-left: 8px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div style="line-height: 50px;font-size: 20px;">
+        <a href="https://space.bilibili.com/180066114" style="text-decoration: none;">
+            <img style="height: 20px" src="https://www.bilibili.com/favicon.ico"/>
+            联系我
+        </a>
+        <a href="https://www.bilibili.com/read/cv11588532" style="margin-left: 30px;text-decoration: none;"><span>相关讲解在B站</span></a>
+    </div>
+
+    <h1>例子一:求解一阶常微分方程</h1>
+    <p>dy/dx = y * cos(x + y);x 取值为 [0,30]</p>
+    <div class="code-part">
+        <ol id="code1">
+        </ol>
+    </div>
+    <div id="code1_echart1"></div>
+    <div id="code1_echart2"></div>
+
+    <h1>例子二：二阶非线性常微分方程</h1>
+    <p>d2y/dx^2 + sin(y) * y；y[0] = 1；[dy/dx][0] = 0；x 取值为 [0,30]</p>
+    <div class="code-part"><ol id="code2"></ol></div>
+    <div id="code2_echart"></div>
+
+    <h1>例子三：常微分方程组</h1>
+    <p>dx = -y - x^2；dy = 2x - y^3；x[0] = y[0] = 1；t 取值为 [0,20]</p>
+    <div class="code-part"><ol id="code3"></ol></div>
+    <div id="code3_echart"></div>
+    <script>
+        let getArray = (arr,len) => {
+            let a = [];
+            for (let i = 0;i < arr.length;i++) {
+                a.push((i / arr.length * len).toFixed(2));
+            }
+            return a;
+        };
+        let codes = [
+            {
+                id: 'code1',
+                codeFn() {
+                    let Calc = getCalc();
+                    // 迭代精度
+                    Calc.deta = 0.001;
+                    let len = 30;
+                    Calc.addParams('y',1);
+                    // 定义积分表达式
+                    Calc.addExps('y',function(n,time,otherExp) {
+                        return n.y * Math.cos(time + n.y);
+                    });
+                    // 整数迭代
+                    Calc.calc(len);
+                    // 分别获取 y 和 y 的导数 dy
+                    let y = Calc.getList('y',0.1);
+                    let dy = Calc.getList('y_d',0.1);
+                    // dy 比 y 少一项，所以第一项补一个空位
+                    dy.unshift(null);
+                    // 返回 echart 的 options 对象
+                    return [
+                        {
+                            grid: {
+                                left: '3%',          right: '4%',
+                                bottom: '3%',   containLabel: true
+                            },
+                            legend: {
+                                data: ['y','dy(导数)'],
+                                selected: { 'y': true,'dy(导数)': false }
+                            },
+                            xAxis: {
+                                type: 'category',
+                                data: getArray(y,len)
+                            },
+                            yAxis: {
+                                type: 'value'
+                            },
+                            series: [
+                                {
+                                    name: 'y',    data: y,
+                                    type: 'line',  smooth: true,
+                                },
+                                {
+                                    name: 'dy(导数)',  data: dy,
+                                    type: 'line',           smooth: true
+                                }
+                            ]
+                        },
+                        {
+                            grid: {
+                                left: '3%',          right: '4%',
+                                bottom: '3%',   containLabel: true
+                            },
+                            xAxis: {
+                                type: 'value',
+                                axisLine: {onZero: true }
+                            },
+                            yAxis: {
+                                type: 'value',
+                                axisLine: {onZero: true}
+                            },
+                            series: [
+                                {
+                                    id: 'a',
+                                    type: 'line',
+                                    smooth: true,
+                                    symbol: 'none',
+                                    data: (() => {
+                                        let d = [];
+                                        y.forEach((_,ind) => d.push([y[ind],dy[ind]]));
+                                        // 范例中只显示了 x = [0,20]
+                                        return d.slice(0,parseInt(d.length * 2 / 3));
+                                    })(),
+                                }
+                            ]
+                        }
+                    ];
+                }
+            },
+            {
+                id: 'code2',
+                codeFn() {
+                    let Calc = getCalc();
+                    // 迭代精度
+                    Calc.deta = 0.001;
+                    let len = 30;
+                    // y[0] = 1,dy[0] = 0
+                    Calc.addParams('y',1);
+                    Calc.addParams('dy',0);
+                    // 没有定义 dy 关于 x 的函数，所以简单理解就是 y = dy * dx;
+                    Calc.addExps('y',function (n,time,otherExp) {
+                        return n.dy;
+                    });
+                    Calc.addExps('dy',function (n,time,otherExp) {
+                        return -Math.sin(n.y) * n.y;
+                    });
+                    Calc.calc(len);
+                    let y = Calc.getList('y',0.1);
+                    let dy = Calc.getList('dy',0.1);
+                    let ddy = Calc.getList('dy_d',0.1);
+                    ddy.unshift(null);
+                    return {
+                        tooltip: {
+                            trigger: 'axis'
+                        },
+                        legend: {
+                            data: ['y','dy','ddy']
+                        },
+                        grid: {
+                            left: '3%',          right: '4%',
+                            bottom: '3%',   containLabel: true
+                        },
+                        xAxis: {
+                            type: 'category',
+                            boundaryGap: false,
+                            data: getArray(y,len)
+                        },
+                        yAxis: {
+                            type: 'value'
+                        },
+                        series: [
+                            {
+                                name: 'y',           type: 'line',
+                                symbol: 'none',  data: y,
+                                itemStyle: { color: '#5470c6' },
+                            },
+                            {
+                                name: 'dy',         type: 'line',
+                                symbol: 'none',  data: dy,
+                                itemStyle: { color: '#fac858' },
+                            },
+                            {
+                                name: 'ddy',       type: 'line',
+                                symbol: 'none',  data: ddy,
+                                itemStyle: { color: '#91cc75' },
+                            },
+                        ]
+                    };
+                }
+            },
+            {
+                id: 'code3',
+                codeFn() {
+                    let Calc = getCalc();
+                    // 迭代精度
+                    Calc.deta = 0.001;
+                    let len = 20;
+                    Calc.addParams('x',1);
+                    Calc.addParams('y',1);
+
+                    Calc.addExps('x',function (n,time,otherExp) {
+                        return -n.y - n.x ** 2;
+                    });
+                    Calc.addExps('y',function (n,time,otherExp) {
+                        return 2 * n.x - n.y **3;
+                    });
+                    Calc.calc(len);
+                    let x = Calc.getList('x',0.1);
+                    let y = Calc.getList('y',0.1);
+
+                    return {
+                        grid: {
+                            left: '3%',          right: '4%',
+                                bottom: '3%',   containLabel: true
+                        },
+                        xAxis: {
+                            type: 'value',
+                                axisLine: {onZero: true }
+                        },
+                        yAxis: {
+                            type: 'value',
+                                axisLine: {onZero: true}
+                        },
+                        series: [
+                            {
+                                id: 'a',
+                                type: 'line',
+                                smooth: true,
+                                symbol: 'none',
+                                data: (() => {
+                                    let d = [];
+                                    y.forEach((_,ind) => d.push([x[ind],y[ind]]));
+                                    return d;
+                                })(),
+                            }
+                        ]
+                    }
+                }
+            }
+        ];
+        function renderCode() {
+            let reps = [
+                // [/[0-9.]+/g,_ => `<span style="color: #f321e9">${_}</span>`],
+                [/ /g,'&nbsp;'],
+                [/Calc/g,_ => `<span style="color: #2196f3">${_}</span>`],
+                [/addParams|addExps|calc|getList/g,_ => `<span style="color: #21f39f">${_}</span>`],
+                [/let|return|Math.cos|function/g,_ => `<span style="color: #f39f21">${_}</span>`],
+            ];
+            codes.forEach(({codeFn,id}) => {
+                let code = codeFn.toString().split('\n');
+                code = code.slice(1,code.length - 1).map(_ => _.substring(20)).join('\n');
+                let ol = document.getElementById(id);
+                reps.forEach(rep => code = code.replace(rep[0],rep[1]));
+                let codeHTML = '<li>' + code.split('\n').map(_ => {
+                    if (_.startsWith('//')) {
+                        return `<span style="color: gray;">${_}</span>`;
+                    } else {
+                        return _;
+                    }
+                }).join('</li><li>') + '</li>';
+                ol.innerHTML = codeHTML;
+            });
+        }
+
+        let allEchart = {
+            code1_echart1: null,
+            code1_echart2: null,
+            code2_echart: null,
+            code3_echart: null,
+        };
+        window.onresize = function() {
+            let maxWidth = window.innerWidth;
+            if (window.innerWidth > window.innerHeight) {
+                maxWidth = parseInt(window.innerHeight * 0.9);
+                document.body.style.margin = `0px ${(window.innerWidth - parseInt(window.innerHeight * 0.9)) / 2}px`
+            }
+            for (let i in allEchart) {
+                allEchart[i]._dom.style.width = maxWidth + 'px';
+                allEchart[i]._dom.style.height = maxWidth + 'px';
+                allEchart[i].resize();
+            }
+        }
+        window.onload = function () {
+            renderCode();
+            allEchart.code1_echart1 = echarts.init(document.getElementById('code1_echart1'));
+            allEchart.code1_echart2= echarts.init(document.getElementById('code1_echart2'));
+            allEchart.code2_echart= echarts.init(document.getElementById('code2_echart'));
+            allEchart.code3_echart= echarts.init(document.getElementById('code3_echart'));
+            let code1_option = codes[0].codeFn();
+            allEchart.code1_echart1.setOption(code1_option[0]);
+            allEchart.code1_echart2.setOption(code1_option[1]);
+            let code2_option = codes[1].codeFn();
+            allEchart.code2_echart.setOption(code2_option);
+            let code3_option = codes[2].codeFn();
+            allEchart.code3_echart.setOption(code3_option);
+
+            window.onresize();
+        }
+    </script>
+</div>
+</body>
+</html>

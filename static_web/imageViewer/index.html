@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .pic {
+            text-decoration: underline;
+            cursor: pointer;
+            margin-bottom: 15px;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            color: #03a9f4;
+        }
+    </style>
+    <script src="./DrawImage.js"></script>
+    <script src="./miniMap.js"></script>
+</head>
+<body style="padding: 0;margin: 0;border: none;width: 100vw;height: 100vh;overflow:hidden;">
+<div style="width: 100%;height: 100%;display: flex">
+    <div style="width: 300px;opacity: 0.8;" id="left">
+        <div style="width: 300px;height: 300px;" id="miniMap"></div>
+        <ul id="ul">
+            <!--            <li onclick="changeImage('首页.jpg')">首页.jpg</li>-->
+            <!--            <li onclick="changeImage('land-use.jpg')">land-use.jpg</li>-->
+        </ul>
+        <canvas id="test"></canvas>
+    </div>
+    <div style="width: calc(100% - 300px);height: 100%;">
+        <canvas id="cans"></canvas>
+    </div>
+</div>
+</body>
+<script name="test">
+    var svg = document.createElementNS("http://www.w3.org/2000/svg",'svg');
+    var xform = svg.createSVGMatrix();
+
+    window.testCanvas = document.getElementById('test');
+    window.testContext = window.testCanvas.getContext('2d');
+    window.testContext.getTransform = function(){ return xform; };
+    window.testImage = new Image();
+    window.testImage.src = 'https://cn.bing.com/th?id=OHR.OnkaparingaRiver_ZH-CN7750372049_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp';
+</script>
+<script>
+    window.onload = function(){
+        window.drawImage = new DrawImage('cans');
+        window.miniMap = new MiniMap(drawImage,document.getElementById('miniMap'));
+
+        new Promise(s => {
+            s([{"url":"https://cn.bing.com/th?id=OHR.OnkaparingaRiver_ZH-CN7750372049_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","copyright":"安加白令嘉河与诺朗加港，南澳大利亚州 (© plainpicture/AWL/Marco Bottigelli)","copyrightlink":"https://cn.bing.com/search?q=%e8%af%ba%e6%9c%97%e5%8a%a0%e6%b8%af&form=hpcapt&mkt=zh-cn"},{"url":"https://cn.bing.com/th?id=OHR.PurpleFlowers_ZH-CN7975901617_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","copyright":"屋前的鲜花和铁艺围栏，路易斯安那州新奥尔良 (© Lauren Mitchell/Offset by Shutterstock)","copyrightlink":"https://cn.bing.com/search?q=%e9%93%81%e8%89%ba%e5%9b%b4%e6%a0%8f&form=hpcapt&mkt=zh-cn"},{"url":"https://cn.bing.com/th?id=OHR.PeritoMorenoArgentina_ZH-CN8205335022_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","copyright":"冰川国家公园中的佩里托莫雷诺冰川，阿根廷 (© Juergen Schonnop/Getty Images)","copyrightlink":"https://cn.bing.com/search?q=%e4%bd%a9%e9%87%8c%e6%89%98%e8%8e%ab%e9%9b%b7%e8%af%ba%e5%86%b0%e5%b7%9d&form=hpcapt&mkt=zh-cn"},{"url":"https://cn.bing.com/th?id=OHR.VerzascaValley_ZH-CN8308636990_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","copyright":"拉韦尔泰佐附近一条河里的石头，瑞士塞斯卡山谷 (© Robert Seitz/Offset by Shutterstock)","copyrightlink":"https://cn.bing.com/search?q=%e6%8b%89%e9%9f%a6%e5%b0%94%e6%b3%b0%e4%bd%90&form=hpcapt&mkt=zh-cn"},{"url":"https://cn.bing.com/th?id=OHR.Parrotfish_ZH-CN8442237302_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","copyright":"东内格罗斯省沿海的鹦嘴鱼，菲律宾 (© Tim Fitzharris/Minden Pictures)","copyrightlink":"https://cn.bing.com/search?q=%e9%b9%a6%e5%98%b4%e9%b1%bc&form=hpcapt&mkt=zh-cn"},{"url":"https://cn.bing.com/th?id=OHR.AABday_ZH-CN8551609592_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","copyright":"暴风雪散去，加利福尼亚优胜美地国家公园 (© Jeff Lewis/Tandem Stills + Motion)","copyrightlink":"https://cn.bing.com/search?q=%e4%bc%98%e8%83%9c%e7%be%8e%e5%9c%b0%e5%9b%bd%e5%ae%b6%e5%85%ac%e5%9b%ad&form=hpcapt&mkt=zh-cn"},{"url":"https://cn.bing.com/th?id=OHR.Porto_ZH-CN9117852684_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","copyright":"波尔图，葡萄牙 (© Kanuman/Shutterstock)","copyrightlink":"https://cn.bing.com/search?q=%e6%b3%a2%e5%b0%94%e5%9b%be&form=hpcapt&mkt=zh-cn"},{"url":"https://cn.bing.com/th?id=OHR.TheCobb_ZH-CN9310074102_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","copyright":"莱姆里杰斯的Cobb防波堤，英格兰多塞特 (© Ross Hoddinott/Offset by Shutterstock)","copyrightlink":"https://cn.bing.com/search?q=Cobb%e9%98%b2%e6%b3%a2%e5%a0%a4&form=hpcapt&mkt=zh-cn"}]);
+        })
+        // fetch('http://www.sunibas.cn/jsons/bingPic.json').then(_ => _.json())
+            .then(arr => {
+            // document.getElementById('left').style.background = `url('${arr[0].url}')`;
+            let ul = document.getElementById('ul');
+            arr.shift();
+            arr.forEach(obj => {
+                ul.innerHTML += `<li class="pic" url="${obj.url}">${obj.copyright}</li>`;
+            });
+            let pics = document.getElementsByClassName('pic');
+            for (let i = 0;i < pics.length;i++) {
+                pics[i].onclick = function () {
+                    window.drawImage.changeImageUrl(this.getAttribute('url'));
+                }
+            }
+            pics[0].onclick();
+        });
+        window.onresize = function () {
+            window.drawImage.onresize();
+        }
+    };
+
+    function changeImage(imageName) {
+        window.drawImage.changeImageUrl('./../views/public/images/' + imageName);
+    }
+
+</script>
+</html>

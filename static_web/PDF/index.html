@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./filerobot-image-editor.min.js"></script>
+    <script>
+        // 297mm×420mm
+    </script>
+    <style>
+        * {
+            border: none;
+            padding: 0;
+            margin: 0;
+            -webkit-touch-callout: none; /* iOS Safari */
+
+            -webkit-user-select: none; /* Chrome/Safari/Opera */
+
+            -khtml-user-select: none; /* Konqueror */
+
+            -moz-user-select: none; /* Firefox */
+
+            -ms-user-select: none; /* Internet Explorer/Edge */
+
+            user-select: none; /* Non-prefixed version, currently
+
+            not supported by any browser */
+        }
+        body {
+            background: #00e2ff;
+        }
+        .page {
+            width: 951px;
+            height: 1260px;
+            margin: auto;
+            background: white;
+            margin-bottom: 20px;
+        }
+        #tool {
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            width: 82px;
+            background: #f0ffdd;
+        }
+        .fun {
+            width: 100%;
+            text-align: center;
+            height: 35px;
+            margin-top: 5px;
+            line-height: 35px;
+            background: cornflowerblue;
+            cursor: pointer;
+        }
+        .exp {
+            float: left;
+            width: 10px;
+            height: 100%;
+            background: #00e2ff;
+        }
+        .pageTool {
+            float: left;
+            width: 50px;
+            height: 100%;
+        }
+        .pageContent {
+            width: 891px;
+            height:100%;
+            /*padding: 10px;*/
+            box-sizing: border-box;
+            float:left;
+        }
+        @media print {
+            /* Print CSS here */
+            body {
+                width: 891px;
+                background: white;
+            }
+            .page {
+                border: none;
+                width: 891px;
+                height: 1260px;
+                margin-bottom: 0;
+                overflow: hidden;
+            }
+            #tool {
+                display: none;
+            }
+            .pageTool {
+                display: none;
+            }
+            .exp {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="tool">w
+        <div class="fun" tar="addImg">添加图片</div>
+        <div class="fun" tar="justBorder">调整边距</div>
+    </div>
+<!--    <div class="page">-->
+<!--        <div class="pageContent">-->
+<!--            <img style="width: 100%;" src="./bg.png" alt="">-->
+<!--        </div>-->
+<!--        <div class="exp"></div>-->
+<!--        <div class="pageTool">-->
+<!--            <div class="fun" tar="delete">删除</div>-->
+<!--            <div class="fun" tar="up">上移</div>-->
+<!--            <div class="fun" tar="down">下移</div>-->
+<!--            <div class="fun pageNum"></div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="page">-->
+<!--        <div class="pageContent">-->
+<!--            <img style="width: 100%;" src="./test.jpg" alt="">-->
+<!--        </div>-->
+<!--        <div class="exp"></div>-->
+<!--        <div class="pageTool">-->
+<!--            <div class="fun" tar="delete">删除</div>-->
+<!--            <div class="fun" tar="up">上移</div>-->
+<!--            <div class="fun" tar="down">下移</div>-->
+<!--            <div class="fun pageNum"></div>-->
+<!--        </div>-->
+<!--    </div>-->
+</body>
+    <script>
+        window.setting = {
+            // http://www.htmleaf.com/jQuery/Image-Effects/201906205700.html
+            _cache_name: 'setting_cache',
+            _cache_: ['pageBorder'],
+            _init_() {
+                let cache = localStorage.getItem(window.setting._cache_name);
+                if (cache) {
+                    try {
+                        cache = JSON.parse(cache);
+                    } finally {
+                        window.setting._cache_.forEach(c => {
+                            if (c in cache) {
+                                window.setting[c] = cache[c];
+                            }
+                        });
+                    }
+                }
+            },
+            _save_cache_(){
+                let obj = {};
+                window.setting._cache_.forEach(c => {
+                    obj[c] = window.setting[c];
+                });
+                localStorage.setItem(window.setting._cache_name,JSON.stringify(obj));
+            },
+            ImageEditor: null,
+            pageBorder: "10"
+        }
+
+        window.funAction = {
+            addImg() {
+                let inp = document.createElement('input');
+                inp.type = "file";
+                inp.multiple = "multiple";
+                inp.accept = "image/*";
+                inp.style.display = "none";
+                inp.onchange = function () {
+                    console.log(inp);
+                    for (let i = 0;i < inp.files.length;i++) {
+                        var reads= new FileReader();
+                        reads.readAsDataURL(inp.files[i]);
+                        reads.onload=function (e) {
+                            let div = (() => {
+                                let div = document.createElement('div');
+                                div.classList.add('page');
+                                return div;
+                            })();
+                            let cdiv = (() => {
+                                let cdiv = document.createElement('div');
+                                cdiv.classList.add('pageContent');
+                                cdiv.style.padding = window.setting.pageBorder + "px";
+                                return cdiv;
+                            })();
+                            let img = (() => {
+                                let img = document.createElement('img');
+                                img.style.width = '100%';
+                                img.src = this.result;
+                                return img;
+                            })();
+                            let expDiv = (() => {
+                                let expDiv = document.createElement('div');
+                                expDiv.classList.add('exp')
+                                return expDiv;
+                            })();
+                            let pageToolDiv = (() => {
+                                let pageToolDiv = document.createElement('div');
+                                pageToolDiv.classList.add('pageTool');
+                                pageToolDiv.innerHTML = `<div class="fun" tar="delete">删除</div>
+            <div class="fun" tar="up">上移</div>
+            <div class="fun" tar="down">下移</div>
+<div class="fun pageNum"></div>`
+                                return pageToolDiv;
+                            })();
+                            cdiv.append(img);
+                            div.append(cdiv);
+                            div.append(expDiv);
+                            div.append(pageToolDiv);
+                            document.body.append(div);
+                            setTimeout(() => {
+                                window.funAction._init_page_event(div);
+                            },500);
+                        };
+                    }
+                }
+                // document.body.append(inp);
+                inp.click();
+            },
+            justBorder() {
+                let newPageBorder = prompt("请输入新的边距",window.setting.pageBorder);
+                if (/^[0-9]+$/.test(newPageBorder)) {
+                    newPageBorder = + newPageBorder;
+                    if (newPageBorder !== window.setting.pageBorder) {
+                        window.funAction._justBorder(newPageBorder);
+                    }
+                } else {
+                    alert("只能输入数字 0~9 的组合");
+                }
+            },
+            _justBorder(newPageBorder) {
+                let pages = document.getElementsByClassName('page');
+                for (let i = 0;i < pages.length;i++) {
+                    pages[i].children[0].style.padding = newPageBorder + "px";
+                }
+                window.setting.pageBorder = newPageBorder;
+                window.setting._save_cache_();
+            },
+            _init_all_page() {
+                let pages = document.getElementsByClassName('page');
+                for (let i = 0;i < pages.length;i++) {
+                    window.funAction._init_page_event(pages[i]);
+                }
+            },
+            _init_page_event(page) {
+                let img = page.getElementsByTagName('img')[0];
+                img.onclick = function() {
+                    window.setting.img = this;
+                    window.setting.ImageEditor.open(this.src);
+                    let div = document.getElementsByClassName('sc-ksYbfQ')[0];
+                    window.setting.div = div;// ;
+                    let btns = div.getElementsByTagName('button');
+                    let dlBtn = btns[btns.length - 1];
+                    dlBtn.onclick = function () {
+                        if (this.innerText.toLowerCase() === "download") {
+                            console.log(window.setting.canvas);
+                            window.setting.img.src = window.setting.div.getElementsByTagName('canvas')[0].toDataURL("image/jpeg", 1.0);
+                            setting.ImageEditor.close();
+                        }
+                    }
+                };
+                let fun = page.getElementsByClassName('fun');
+                let btns = {};
+                for (let i = 0;i < fun.length;i++) {
+                    btns[fun[i].getAttribute('tar')] = fun[i];
+                }
+                if (btns.delete) {
+                    btns.delete.onclick = function () {
+                        page.remove();
+                        window.funAction._update_page_number();
+                    };
+                }
+                if (btns.up) {
+                    btns.up.onclick = function () {
+                        window._page = page;
+                        let nextS = page.previousElementSibling;
+                        while (nextS !== null && !nextS.classList.contains('page')) {
+                            nextS = nextS.previousElementSibling;
+                        }
+                        if (nextS === null) {
+                            return;
+                        }
+                        document.body.insertBefore(page,nextS);
+                        window.scrollTo(0,page.offsetTop);
+                        window.funAction._update_page_number();
+                    };
+                }
+                if (btns.down) {
+                    window._page = page;
+                    btns.down.onclick = function () {
+                        let nextS = page.nextElementSibling;
+                        while (nextS !== null && !nextS.classList.contains('page')) {
+                            nextS = nextS.nextElementSibling;
+                        }
+                        if (nextS === null) {
+                            return;
+                        }
+                        document.body.insertBefore(nextS,page);
+                        window.scrollTo(0,page.offsetTop);
+                        window.funAction._update_page_number();
+                    };
+                }
+                window.funAction._update_page_number();
+            },
+            _update_page_number() {
+                let pages = document.getElementsByClassName('page');
+                for (let i = 0;i < pages.length;i++) {
+                    let pageNum = (pages[i].offsetTop / 1280);
+                    pages[i].getElementsByClassName('pageNum')[0].innerText = (pageNum + 1);
+                }
+            },
+        };
+
+        window.onload = function () {
+            window.setting._init_();
+            window.setting.ImageEditor = new FilerobotImageEditor();
+            let funs = document.getElementById('tool').getElementsByClassName('fun');
+            for (let i = 0;i < funs.length;i++) {
+                let tar = funs[i].getAttribute('tar');
+                if (tar in funAction) {
+                    funs[i].onclick = funAction[tar];
+                }
+            }
+            window.funAction._justBorder(window.setting.pageBorder);
+            window.funAction._init_all_page();
+        }
+    </script>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            user-select: none;
+        }
+        .list {}
+        .page {
+            display: flex;
+            text-align: center;
+            padding: 10px calc(50vw - 165px);
+        }
+        .page-item {
+            width: 100px;
+            cursor: pointer;
+            background: #d4d4d4;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .page-number {
+            width: 100px;
+            padding: 5px;
+        }
+        .page-in {
+            width: 20px;
+        }
+        .row {
+            display: flex;
+        }
+        .item {
+            width: 20%;
+        }
+        .item-img-box {
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .item-img {
+            /*width: 100%;*/
+            /*background-repeat: no-repeat;*/
+            /*background-size: contain;*/
+            /*height: 200px;*/
+        }
+        .item-text {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div class="page" id="page"></div>
+    <div class="list" id="list">
+
+    </div>
+</div>
+<script>
+    window.games = [];
+    window.pageCount = 20;
+    window.initPage = function (page) {
+        page = + page;
+        let p = window.games.slice(page * window.pageCount,page * window.pageCount + window.pageCount);
+        // {
+        //     "url": "https://www.yikm.net/play?id=4137&n=L2Zjcm9tL3NqL0NvbnRyYSAoVSkgWyFdLm5lcw==&t=%E9%AD%82%E6%96%97%E7%BD%97(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/sj/436a.png",
+        //     "img": "https://img.1990i.com/fcpic/sj/436a.png",
+        //     "name": "魂斗罗(美版)",
+        //     "tag": [
+        //     "FC",
+        //     "射击",
+        //     "魂斗罗"
+        // ],
+        //     "nes": "https://file.1990i.com//fcrom/ydbs/2002 World Cup PK (Unl) (PAL).nes"
+        // },
+        let innerHtml = "";
+        let j = 0;
+        for (let i = 0;i < p.length;i++) {
+            if (j === 0) {
+                innerHtml += '<div class="row">';
+            }
+            let img = p[i].img.split('/');
+            let nes = p[i].nes.split('/');
+            let tid = p[i].url.split('?')[1].split('&').map(_=>_.split('=')).filter(_ => _[0] === 'id')[0][1];
+            innerHtml += `
+<div tar="${nes[nes.length - 1]}" tid="${tid}" class="item">
+    <div class="item-img-box">
+        <img width="auto" height="200px" class="item-img" src='./games/${img[img.length - 1]}'/>
+    </div>
+    <div class="item-text">${p[i].name}</div>
+</div>`
+            if (j === 4) {
+                innerHtml += '</div>';
+                j = -1;
+            }
+            j++;
+        }
+        innerHtml += '</div>';
+        document.getElementById('list').innerHTML = innerHtml;
+        new Array(...document.getElementsByClassName('item')).forEach(item => {
+            item.onclick = function () {
+                let tid = this.getAttribute('tid')
+                let nes = this.getAttribute('tar')
+                console.log(`./runGame.html?tid=${tid}&nes=${nes}`);
+                window.open(`./runGame.html?tid=${tid}&nes=${nes}`);
+            };
+        });
+        document.getElementById('page').innerHTML = `<div class="page-item" tar="${page-1}">上一页</div><div class="page-in"></div><div class="page-number">${page + 1}</div><div class="page-in"></div><div class="page-item" tar="${page+1}">下一页</div>`;
+        new Array(...document.getElementsByClassName('page-item')).forEach(item => {
+            item.onclick = function () {
+                let page = this.getAttribute('tar');
+                if (page < 0) {} else if (page === 13) {} else {
+                    window.initPage(page);
+                }
+            };
+        });
+    };
+    window.onload = function () {
+        fetch('./games/fc.json').then(_=>_.json()).then(_games => {
+            window.games = _games;
+            initPage(0);
+        });
+    };
+</script>
+</body>
+</html>

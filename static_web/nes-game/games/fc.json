@@ -1,0 +1,2810 @@
+[
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "选择游戏...",
+      "nes": "http://yx.1dly.cn/roms/选择游戏..."
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "超级玛丽",
+      "nes": "http://yx.1dly.cn/roms/roms/Super Mario Bros. (JU) (PRG0) [!].nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "冒险岛",
+      "nes": "http://yx.1dly.cn/roms/roms/maoxiandao.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "魂斗罗",
+      "nes": "http://yx.1dly.cn/roms/roms/hun.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "中国象棋",
+      "nes": "http://yx.1dly.cn/roms/roms/Zhong Guo Xiang Qi.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "坦克大战",
+      "nes": "http://yx.1dly.cn/roms/roms/tanke.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "雪人兄弟",
+      "nes": "http://yx.1dly.cn/roms/roms/xueren.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "越野摩托",
+      "nes": "http://yx.1dly.cn/roms/roms/Motor.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "赤影战士",
+      "nes": "http://yx.1dly.cn/roms/roms/Kage.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "炸弹人",
+      "nes": "http://yx.1dly.cn/roms/roms/zhadan.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "马戏团",
+      "nes": "http://yx.1dly.cn/roms/roms/ma.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "影子传说",
+      "nes": "http://yx.1dly.cn/roms/roms/Kage.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "沙罗曼蛇",
+      "nes": "http://yx.1dly.cn/roms/roms/Life Force [!].nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "脱狱",
+      "nes": "http://yx.1dly.cn/roms/roms/Cross Fire (J).nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "功夫",
+      "nes": "http://yx.1dly.cn/roms/roms/(J) (V1.2) Yie Ar Kung-Fu [!].nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "双截龙2",
+      "nes": "http://yx.1dly.cn/roms/roms/Double Dragon2.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "三目童子",
+      "nes": "http://yx.1dly.cn/roms/roms/3.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "恶魔城1",
+      "nes": "http://yx.1dly.cn/roms/roms/emc.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "洛克人1",
+      "nes": "http://yx.1dly.cn/roms/roms/lkr.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "人间兵器",
+      "nes": "http://yx.1dly.cn/roms/roms/rjbq.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "忍者神龟1",
+      "nes": "http://yx.1dly.cn/roms/roms/sg1.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "激龟快打",
+      "nes": "http://yx.1dly.cn/roms/roms/sg4.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "泡泡龙2",
+      "nes": "http://yx.1dly.cn/roms/roms/ppl2.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "西游记1",
+      "nes": "http://yx.1dly.cn/roms/roms/xyj1.nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "沙罗曼蛇",
+      "nes": "http://yx.1dly.cn/roms/roms/Lifeforce (U).nes"
+    },
+    {
+      "url": "?&id=4138",
+      "img": "./games/empty.jpg",
+      "name": "淘金者",
+      "nes": "http://yx.1dly.cn/roms/roms/Championship Lode Runner (J).nes"
+    },
+  {
+    "url": "https://www.yikm.net/play?id=4137&n=L2Zjcm9tL3NqL0NvbnRyYSAoVSkgWyFdLm5lcw==&t=%E9%AD%82%E6%96%97%E7%BD%97(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/sj/436a.png",
+    "img": "https://img.1990i.com/fcpic/sj/436a.png",
+    "name": "魂斗罗(美版)",
+    "tag": [
+      "FC",
+      "射击",
+      "魂斗罗"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Contra (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3882&n=L2Zjcm9tL2dkL1RlZW5hZ2UgTXV0YW50IEhlcm8gVHVydGxlcyAtIFRvdXJuYW1lbnQgRmlnaHRlcnMgKEUpIFshXS5uZXM=&t=%E6%BF%80%E9%BE%9F%E5%BF%AB%E6%89%93(%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9F%E6%A0%BC%E6%96%97)%E6%AC%A7%E7%89%88&ac=3&p=/fcpic/gd/2254a.png",
+    "img": "https://img.1990i.com/fcpic/gd/2254a.png",
+    "name": "激龟快打(忍者神龟格斗)欧版",
+    "tag": [
+      "FC",
+      "格斗",
+      "正品格斗"
+    ],
+    "nes": "https://file.1990i.com//fcrom/gd/Teenage Mutant Hero Turtles - Tournament Fighters (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4138&n=L2Zjcm9tL3NqL0NvbnRyYSAoKzQgbWVudSkubmVz&t=%E9%AD%82%E6%96%97%E7%BD%97(%E7%BE%8E%E7%89%88)4%E5%90%881&ac=3&p=/fcpic/sj/910a.png",
+    "img": "https://img.1990i.com/fcpic/sj/910a.png",
+    "name": "魂斗罗(美版)4合1",
+    "tag": [
+      "FC",
+      "射击",
+      "魂斗罗"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Contra (+4 menu).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3883&n=L2Zjcm9tL2dkL1RlZW5hZ2UgTXV0YW50IE5pbmphIFR1cnRsZXMgLSBUb3VybmFtZW50IEZpZ2h0ZXJzIChVKSBbIV0ubmVz&t=%E6%BF%80%E9%BE%9F%E5%BF%AB%E6%89%93(%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9F%E6%A0%BC%E6%96%97)%E7%BE%8E%E7%89%88&ac=3&p=/fcpic/gd/2259a.png",
+    "img": "https://img.1990i.com/fcpic/gd/2259a.png",
+    "name": "激龟快打(忍者神龟格斗)美版",
+    "tag": [
+      "FC",
+      "格斗",
+      "正品格斗"
+    ],
+    "nes": "https://file.1990i.com//fcrom/gd/Teenage Mutant Ninja Turtles - Tournament Fighters (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4141&n=L2Zjcm9tL3NqL0NvbnRyYSBGb3JjZSAoVSkgWyFdLm5lcw==&t=%E9%AD%82%E6%96%97%E7%BD%97%E5%8A%9B%E9%87%8F&ac=3&p=/fcpic/sj/437a.png",
+    "img": "https://img.1990i.com/fcpic/sj/437a.png",
+    "name": "魂斗罗力量",
+    "tag": [
+      "FC",
+      "射击",
+      "魂斗罗"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Contra Force (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4710&n=L2Zjcm9tL3lkYnMvQmlra3VyaSBOZWtrZXRzdSBTaGluIEtpcm9rdSEgLSBIYXJ1a2FuYXJ1IEtpbiBNZWRhbCAoSikgWyFdLm5lcw==&t=%E7%83%AD%E8%A1%80%E6%96%B0%E7%BA%AA%E5%BD%95(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/ydbs/255a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/255a.png",
+    "name": "热血新纪录(日版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Bikkuri Nekketsu Shin Kiroku! - Harukanaru Kin Medal (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3175&n=L2Zjcm9tL2R6bXgvVGFrYWhhc2hpIE1laWppbiBubyBCb3VrZW4gU2hpbWEgKEopIFshXS5uZXM=&t=%E5%86%92%E9%99%A9%E5%B2%9B(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/1001a.png",
+    "img": "https://img.1990i.com/fcpic/1001a.png",
+    "name": "冒险岛(日版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "冒险岛"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Takahashi Meijin no Bouken Shima (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4711&n=L2Zjcm9tL3lkYnMvQ3Jhc2ggJ24gdGhlIEJveXMgLSBTdHJlZXQgQ2hhbGxlbmdlIChVKSBbIV0ubmVz&t=%E7%83%AD%E8%A1%80%E6%96%B0%E7%BA%AA%E5%BD%95(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/4711a.png",
+    "img": "https://img.1990i.com/fcpic/4711a.png",
+    "name": "热血新纪录(美版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Crash 'n the Boys - Street Challenge (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3176&n=L2Zjcm9tL2R6bXgvSHVkc29uJ3MgQWR2ZW50dXJlIElzbGFuZCAoVSkgWyFdLm5lcw==&t=%E5%86%92%E9%99%A9%E5%B2%9B(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/1001a.png",
+    "img": "https://img.1990i.com/fcpic/1001a.png",
+    "name": "冒险岛(美版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "冒险岛"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Hudson's Adventure Island (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4712&n=L2Zjcm9tL3lkYnMvRG93bnRvd24gU3BlY2lhbCAtIEt1bmlvLWt1biBubyBKaWRhaWdla2kgRGF5byBaZW5pbiBTaHV1Z291ISAoSikgWyFdLm5lcw==&t=%E7%83%AD%E8%A1%80%E6%97%B6%E4%BB%A3%E5%89%A7&ac=3&p=/fcpic/4712.png",
+    "img": "https://img.1990i.com/fcpic/4712.png",
+    "name": "热血时代剧",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Downtown Special - Kunio-kun no Jidaigeki Dayo Zenin Shuugou! (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3177&n=L2Zjcm9tL2R6bXgvVGFrYWhhc2hpIE1laWppbiBubyBCb3VrZW4gU2hpbWEgSUkgKEopIFshXS5uZXM=&t=%E5%86%92%E9%99%A9%E5%B2%9B2(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/3177.png",
+    "img": "https://img.1990i.com/fcpic/3177.png",
+    "name": "冒险岛2(日版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "冒险岛"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Takahashi Meijin no Bouken Shima II (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4713&n=L2Zjcm9tL3lkYnMvSWtlIElrZSEgTmVra2V0c3UgSG9ja2V5LWJ1IC0gU3ViZXR0ZSBLb3JvbmRlIERhaSBSYW50b3UgKEopIFshXS5uZXM=&t=%E7%83%AD%E8%A1%80%E6%9B%B2%E6%A3%8D%E7%90%83&ac=3&p=/fcpic/4713.png",
+    "img": "https://img.1990i.com/fcpic/4713.png",
+    "name": "热血曲棍球",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Ike Ike! Nekketsu Hockey-bu - Subette Koronde Dai Rantou (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3178&n=L2Zjcm9tL2R6bXgvSHVkc29uJ3MgQWR2ZW50dXJlIElzbGFuZCBJSSAoVSkgWyFdLm5lcw==&t=%E5%86%92%E9%99%A9%E5%B2%9B2(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/2581a.png",
+    "img": "https://img.1990i.com/fcpic/2581a.png",
+    "name": "冒险岛2(美版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "冒险岛"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Hudson's Adventure Island II (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4714&n=L2Zjcm9tL3lkYnMvTmVra2V0c3UgS2FrdXRvdSBEZW5zZXRzdSAoSikgWyFdLm5lcw==&t=%E7%83%AD%E8%A1%80%E6%A0%BC%E6%96%97%E4%BC%A0%E8%AF%B4&ac=3&p=/fcpic/ydbs/1544a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/1544a.png",
+    "name": "热血格斗传说",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Nekketsu Kakutou Densetsu (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3179&n=L2Zjcm9tL2R6bXgvVGFrYWhhc2hpIE1laWppbiBubyBCb3VrZW4gU2hpbWEgSUlJIChKKSBbIV0ubmVz&t=%E5%86%92%E9%99%A9%E5%B2%9B3(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/3179.png",
+    "img": "https://img.1990i.com/fcpic/3179.png",
+    "name": "冒险岛3(日版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "冒险岛"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Takahashi Meijin no Bouken Shima III (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4715&n=L2Zjcm9tL3lkYnMvRG93bnRvd24gLSBOZWtrZXRzdSBNb25vZ2F0YXJpIChKKS5uZXM=&t=%E7%83%AD%E8%A1%80%E7%89%A9%E8%AF%AD(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/ydbs/577a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/577a.png",
+    "name": "热血物语(日版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Downtown - Nekketsu Monogatari (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3180&n=L2Zjcm9tL2R6bXgvSHVkc29uJ3MgQWR2ZW50dXJlIElzbGFuZCBJSUkgKFUpIFshXS5uZXM=&t=%E5%86%92%E9%99%A9%E5%B2%9B3(%E7%BE%8E%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "冒险岛3(美版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "冒险岛"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Hudson's Adventure Island III (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4716&n=L2Zjcm9tL3lkYnMvU3RyZWV0IEdhbmdzIChFKSBbIV0ubmVz&t=%E7%83%AD%E8%A1%80%E7%89%A9%E8%AF%AD(%E6%AC%A7%E7%89%88)&ac=3&p=/fcpic/ydbs/2114a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/2114a.png",
+    "name": "热血物语(欧版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Street Gangs (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3181&n=L2Zjcm9tL2R6bXgvVGFrYWhhc2hpIE1laWppbiBubyBCb3VrZW4gU2hpbWEgSVYgKEopLm5lcw==&t=%E5%86%92%E9%99%A9%E5%B2%9B4&ac=3&p=/fcpic/3181.png",
+    "img": "https://img.1990i.com/fcpic/3181.png",
+    "name": "冒险岛4",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "冒险岛"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Takahashi Meijin no Bouken Shima IV (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4717&n=L2Zjcm9tL3lkYnMvUml2ZXIgQ2l0eSBSYW5zb20gKFUpIFshXS5uZXM=&t=%E7%83%AD%E8%A1%80%E7%89%A9%E8%AF%AD(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/ydbs/1810a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/1810a.png",
+    "name": "热血物语(美版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/River City Ransom (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4718&n=L2Zjcm9tL3lkYnMvTmVra2V0c3UgS291aGEgLSBLdW5pby1rdW4gKEopIFshXS5uZXM=&t=%E7%83%AD%E8%A1%80%E7%A1%AC%E6%B4%BE(%E6%97%A5%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "热血硬派(日版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Nekketsu Kouha - Kunio-kun (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4719&n=L2Zjcm9tL3lkYnMvUmVuZWdhZGUgKFUpIFshXS5uZXM=&t=%E7%83%AD%E8%A1%80%E7%A1%AC%E6%B4%BE(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/ydbs/2230a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/2230a.png",
+    "name": "热血硬派(美版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Renegade (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4720&n=L2Zjcm9tL3lkYnMvTmVra2V0c3UhIFN0cmVldCBCYXNrZXQgLSBHYW5iYXJlIER1bmsgSGVyb2VzIChKKS5uZXM=&t=%E7%83%AD%E8%A1%80%E7%AF%AE%E7%90%83&ac=3&p=/fcpic/ydbs/1548a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/1548a.png",
+    "name": "热血篮球",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Nekketsu! Street Basket - Ganbare Dunk Heroes (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4721&n=L2Zjcm9tL3lkYnMvTmVra2V0c3UgS291a291IERvZGdlYmFsbCBCdSAtIFNvY2NlciBIZW4gKEopIFshXS5uZXM=&t=%E7%83%AD%E8%A1%80%E8%B6%B3%E7%90%83(%E6%97%A5%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "热血足球(日版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Nekketsu Koukou Dodgeball Bu - Soccer Hen (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4722&n=L2Zjcm9tL3lkYnMvTmludGVuZG8gV29ybGQgQ3VwIChFKSAoUFJHMCkgWyFdLm5lcw==&t=%E7%83%AD%E8%A1%80%E8%B6%B3%E7%90%83(%E6%AC%A7%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "热血足球(欧版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Nintendo World Cup (E) (PRG0) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4723&n=L2Zjcm9tL3lkYnMvTmludGVuZG8gV29ybGQgQ3VwIChVKSBbIV0ubmVz&t=%E7%83%AD%E8%A1%80%E8%B6%B3%E7%90%83(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/ydbs/1587a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/1587a.png",
+    "name": "热血足球(美版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Nintendo World Cup (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4724&n=L2Zjcm9tL3lkYnMvS3VuaW8ta3VuIG5vIE5la2tldHN1IFNvY2NlciBMZWFndWUgKEopIFshXS5uZXM=&t=%E7%83%AD%E8%A1%80%E8%B6%B3%E7%90%83%E8%81%94%E7%9B%9F&ac=3&p=/fcpic/ydbs/1223a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/1223a.png",
+    "name": "热血足球联盟",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Kunio-kun no Nekketsu Soccer League (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4725&n=L2Zjcm9tL3lkYnMvRG93bnRvd24gLSBOZWtrZXRzdSBLb3VzaGluIEt5b2t1IC0gU29yZXl1a2UgRGFpdW5kb3VrYWkgKEopIFshXS5uZXM=&t=%E7%83%AD%E8%A1%80%E8%BF%9B%E8%A1%8C%E6%9B%B2&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "热血进行曲",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Downtown - Nekketsu Koushin Kyoku - Soreyuke Daiundoukai (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4726&n=L2Zjcm9tL3lkYnMvTmVra2V0c3UgS291a291IERvZGdlYmFsbCBCdSAoSikgWyFdLm5lcw==&t=%E7%83%AD%E8%A1%80%E9%AB%98%E6%A0%A1%E8%BA%B2%E9%81%BF%E7%90%83(%E6%97%A5%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "热血高校躲避球(日版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Nekketsu Koukou Dodgeball Bu (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4727&n=L2Zjcm9tL3lkYnMvU3VwZXIgRG9kZ2UgQmFsbCAoVSkgWyFdLm5lcw==&t=%E7%83%AD%E8%A1%80%E9%AB%98%E6%A0%A1%E8%BA%B2%E9%81%BF%E7%90%83(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/ydbs/2142a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/2142a.png",
+    "name": "热血高校躲避球(美版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "热血系列"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Super Dodge Ball (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3199&n=L2Zjcm9tL2R6bXgvRG91YmxlIERyYWdvbiAoSikgWyFdLm5lcw==&t=%E5%8F%8C%E6%88%AA%E9%BE%99(%E6%97%A5%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "双截龙(日版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "双截龙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Double Dragon (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3200&n=L2Zjcm9tL2R6bXgvRG91YmxlIERyYWdvbiAoRSkgWyFdLm5lcw==&t=%E5%8F%8C%E6%88%AA%E9%BE%99(%E6%AC%A7%E7%89%88)&ac=3&p=/fcpic/558a.png",
+    "img": "https://img.1990i.com/fcpic/558a.png",
+    "name": "双截龙(欧版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "双截龙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Double Dragon (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3201&n=L2Zjcm9tL2R6bXgvRG91YmxlIERyYWdvbiAoVSkgWyFdLm5lcw==&t=%E5%8F%8C%E6%88%AA%E9%BE%99(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/560a.png",
+    "img": "https://img.1990i.com/fcpic/560a.png",
+    "name": "双截龙(美版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "双截龙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Double Dragon (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3202&n=L2Zjcm9tL2R6bXgvRG91YmxlIERyYWdvbiBJSSAtIFRoZSBSZXZlbmdlIChKKS5uZXM=&t=%E5%8F%8C%E6%88%AA%E9%BE%992-%E5%A4%8D%E4%BB%87(%E6%97%A5%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "双截龙2-复仇(日版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "双截龙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Double Dragon II - The Revenge (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3203&n=L2Zjcm9tL2R6bXgvRG91YmxlIERyYWdvbiBJSSAtIFRoZSBSZXZlbmdlIChFKSBbIV0ubmVz&t=%E5%8F%8C%E6%88%AA%E9%BE%992-%E5%A4%8D%E4%BB%87(%E6%AC%A7%E7%89%88)&ac=3&p=/fcpic/564a.png",
+    "img": "https://img.1990i.com/fcpic/564a.png",
+    "name": "双截龙2-复仇(欧版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "双截龙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Double Dragon II - The Revenge (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3204&n=L2Zjcm9tL2R6bXgvRG91YmxlIERyYWdvbiBJSSAtIFRoZSBSZXZlbmdlIChVKSAoUFJHMSkgWyFdLm5lcw==&t=%E5%8F%8C%E6%88%AA%E9%BE%992-%E5%A4%8D%E4%BB%87(%E7%BE%8E%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "双截龙2-复仇(美版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "双截龙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Double Dragon II - The Revenge (U) (PRG1) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3205&n=L2Zjcm9tL2R6bXgvRG91YmxlIERyYWdvbiBJSUkgLSBUaGUgUm9zZXR0YSBTdG9uZSAoSikgWyFdLm5lcw==&t=%E5%8F%8C%E6%88%AA%E9%BE%993-%E7%BD%97%E5%A1%9E%E5%A1%94%E4%B9%8B%E7%9F%B3(%E6%97%A5%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "双截龙3-罗塞塔之石(日版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "双截龙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Double Dragon III - The Rosetta Stone (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3206&n=L2Zjcm9tL2R6bXgvRG91YmxlIERyYWdvbiBJSUkgLSBUaGUgU2FjcmVkIFN0b25lcyAoRSkgWyFdLm5lcw==&t=%E5%8F%8C%E6%88%AA%E9%BE%993-%E7%BD%97%E5%A1%9E%E5%A1%94%E4%B9%8B%E7%9F%B3(%E6%AC%A7%E7%89%88)&ac=3&p=/fcpic/568a.png",
+    "img": "https://img.1990i.com/fcpic/568a.png",
+    "name": "双截龙3-罗塞塔之石(欧版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "双截龙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Double Dragon III - The Sacred Stones (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3207&n=L2Zjcm9tL2R6bXgvRG91YmxlIERyYWdvbiBJSUkgLSBUaGUgU2FjcmVkIFN0b25lcyAoVSkgWyFdLm5lcw==&t=%E5%8F%8C%E6%88%AA%E9%BE%993-%E7%BD%97%E5%A1%9E%E5%A1%94%E4%B9%8B%E7%9F%B3(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/568a.png",
+    "img": "https://img.1990i.com/fcpic/568a.png",
+    "name": "双截龙3-罗塞塔之石(美版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "双截龙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Double Dragon III - The Sacred Stones (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3208&n=L2Zjcm9tL2R6bXgvVGFyZ2V0IC0gUmVuZWdhZGUgKFUpIFshXS5uZXM=&t=%E5%8F%8C%E6%88%AA%E9%BE%994(%E7%9B%AE%E6%A0%87%EF%BC%9A%E5%8F%9B%E5%BE%92)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "双截龙4(目标：叛徒)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "双截龙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Target - Renegade (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3997&n=L2Zjcm9tL3NqL1Rha2FoYXNoaSBNZWlqaW4gbm8gQnVndXR0ZSBIb25leSAoSikgWyFdLm5lcw==&t=%E5%86%92%E9%99%A9%E5%B2%9B%E5%A4%96%E4%BC%A0-%E9%AB%98%E6%A1%A5%E5%90%8D%E4%BA%BA%E7%9A%84%E6%99%BA%E5%8A%9B%E6%8C%91%E6%88%98&ac=3&p=/fcpic/sj/2217a.png",
+    "img": "https://img.1990i.com/fcpic/sj/2217a.png",
+    "name": "冒险岛外传-高桥名人的智力挑战",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Takahashi Meijin no Bugutte Honey (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3486&n=L2Zjcm9tL2R6bXgvU2FpeXV1a2kgV29ybGQgKEopLm5lcw==&t=%E8%A5%BF%E6%B8%B8%E8%AE%B0(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/1880a.png",
+    "img": "https://img.1990i.com/fcpic/1880a.png",
+    "name": "西游记(日版)",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Saiyuuki World (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3487&n=L2Zjcm9tL2R6bXgvU2FpeXV1a2kgV29ybGQgMiAtIFRlbmpvdWthaSBubyBNYWppbiAoSikubmVz&t=%E8%A5%BF%E6%B8%B8%E8%AE%B02(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/1881a.png",
+    "img": "https://img.1990i.com/fcpic/1881a.png",
+    "name": "西游记2(日版)",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Saiyuuki World 2 - Tenjoukai no Majin (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4511&n=L2Zjcm9tL3h5eC9Tbm93IEJyb3MuIChKKS5uZXM=&t=%E9%9B%AA%E4%BA%BA%E5%85%84%E5%BC%9F(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/xyx/2023a.png",
+    "img": "https://img.1990i.com/fcpic/xyx/2023a.png",
+    "name": "雪人兄弟(日版)",
+    "tag": [
+      "FC",
+      "小游戏"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Snow Bros. (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3488&n=L2Zjcm9tL2R6bXgvV2hvbXAnRW0gKFUpIFshXS5uZXM=&t=%E8%A5%BF%E6%B8%B8%E8%AE%B02(%E7%BE%8E%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "西游记2(美版)",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Whomp'Em (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3501&n=L2Zjcm9tL2R6bXgvU3VwZXIgTWFyaW8gQnJvcy4gKFcpIFshXS5uZXM=&t=%E8%B6%85%E7%BA%A7%E9%A9%AC%E9%87%8C%E5%A5%A5&ac=3&p=/fcpic/2146a.png",
+    "img": "https://img.1990i.com/fcpic/2146a.png",
+    "name": "超级马里奥",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "超级马里奥"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Super Mario Bros. (W) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3502&n=L2Zjcm9tL2R6bXgvU3VwZXIgTWFyaW8gVVNBIChKKSBbIV0ubmVz&t=%E8%B6%85%E7%BA%A7%E9%A9%AC%E9%87%8C%E5%A5%A52(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/2161a.png",
+    "img": "https://img.1990i.com/fcpic/2161a.png",
+    "name": "超级马里奥2(日版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "超级马里奥"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Super Mario USA (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3503&n=L2Zjcm9tL2R6bXgvU3VwZXIgTWFyaW8gQnJvcy4gMiAoRSkgWyFdLm5lcw==&t=%E8%B6%85%E7%BA%A7%E9%A9%AC%E9%87%8C%E5%A5%A52(%E6%AC%A7%E7%89%88)&ac=3&p=/fcpic/2153a.png",
+    "img": "https://img.1990i.com/fcpic/2153a.png",
+    "name": "超级马里奥2(欧版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "超级马里奥"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Super Mario Bros. 2 (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3507&n=L2Zjcm9tL2R6bXgvU3VwZXIgTWFyaW8gQnJvcy4gMyAoRSkgWyFdLm5lcw==&t=%E8%B6%85%E7%BA%A7%E9%A9%AC%E9%87%8C%E5%A5%A53(%E6%AC%A7%E7%89%88)&ac=3&p=/fcpic/2157a.png",
+    "img": "https://img.1990i.com/fcpic/2157a.png",
+    "name": "超级马里奥3(欧版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "超级马里奥"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Super Mario Bros. 3 (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4275&n=L2Zjcm9tL3h5eC9CYXR0bGUgQ2l0eSAoSikgWyFdLm5lcw==&t=%E5%9D%A6%E5%85%8B%E5%A4%A7%E6%88%98&ac=3&p=/fcpic/xyx/timg.png",
+    "img": "https://img.1990i.com/fcpic/xyx/timg.png",
+    "name": "坦克大战",
+    "tag": [
+      "FC",
+      "小游戏"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Battle City (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3508&n=L2Zjcm9tL2R6bXgvU3VwZXIgTWFyaW8gQnJvcy4gMyAoVSkgKFBSRzEpIFshXS5uZXM=&t=%E8%B6%85%E7%BA%A7%E9%A9%AC%E9%87%8C%E5%A5%A53(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/2157a.png",
+    "img": "https://img.1990i.com/fcpic/2157a.png",
+    "name": "超级马里奥3(美版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "超级马里奥"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Super Mario Bros. 3 (U) (PRG1) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3511&n=L2Zjcm9tL2R6bXgvTWFyaW8gaXMgTWlzc2luZyEgKEUpIFshXS5uZXM=&t=%E9%A9%AC%E9%87%8C%E5%A5%A5%E5%A4%B1%E8%B8%AA%E8%AE%B0(%E6%AC%A7%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "马里奥失踪记(欧版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "超级马里奥"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Mario is Missing! (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3512&n=L2Zjcm9tL2R6bXgvTWFyaW8gaXMgTWlzc2luZyEgKFUpIFshXS5uZXM=&t=%E9%A9%AC%E9%87%8C%E5%A5%A5%E5%A4%B1%E8%B8%AA%E8%AE%B0(%E7%BE%8E%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "马里奥失踪记(美版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "超级马里奥"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Mario is Missing! (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3513&n=L2Zjcm9tL2R6bXgvTWFyaW8ncyBUaW1lIE1hY2hpbmUhIChVKSBbIV0ubmVz&t=%E9%A9%AC%E9%87%8C%E5%A5%A5%E7%9A%84%E6%97%B6%E9%97%B4%E6%9C%BA%E5%99%A8&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "马里奥的时间机器",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "超级马里奥"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Mario's Time Machine! (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=6086&n=L2Zjcm9tL2R6bXgvc21iMmoubmVz&t=%E8%B6%85%E7%BA%A7%E9%A9%AC%E9%87%8C%E5%A5%A52&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "超级马里奥2",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "超级马里奥"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/smb2j.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3297&n=L2Zjcm9tL2R6bXgvVGVlbmFnZSBNdXRhbnQgTmluamEgVHVydGxlcyAoSikubmVz&t=%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9F2(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/2257a.png",
+    "img": "https://img.1990i.com/fcpic/2257a.png",
+    "name": "忍者神龟2(日版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "忍者神龟"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Teenage Mutant Ninja Turtles (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3298&n=L2Zjcm9tL2R6bXgvVGVlbmFnZSBNdXRhbnQgTmluamEgVHVydGxlcyBJSSAtIFRoZSBBcmNhZGUgR2FtZSAoVSkgWyFdLm5lcw==&t=%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9F2(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/2260a.png",
+    "img": "https://img.1990i.com/fcpic/2260a.png",
+    "name": "忍者神龟2(美版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "忍者神龟"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Teenage Mutant Ninja Turtles II - The Arcade Game (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3299&n=L2Zjcm9tL2R6bXgvVGVlbmFnZSBNdXRhbnQgTmluamEgVHVydGxlcyAyIC0gVGhlIE1hbmhhdHRhbiBQcm9qZWN0IChKKS5uZXM=&t=%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9F3(%E6%97%A5%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "忍者神龟3(日版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "忍者神龟"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Teenage Mutant Ninja Turtles 2 - The Manhattan Project (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3301&n=L2Zjcm9tL2R6bXgvR2VraWthbWUgTmluamEgRGVuIChKKS5uZXM=&t=%E6%BF%80%E9%BE%9F%E5%BF%8D%E8%80%85%E4%BC%A0(%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9F)%E6%97%A5%E7%89%88&ac=3&p=/fcpic/838a.png",
+    "img": "https://img.1990i.com/fcpic/838a.png",
+    "name": "激龟忍者传(忍者神龟)日版",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "忍者神龟"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Gekikame Ninja Den (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3302&n=L2Zjcm9tL2R6bXgvVGVlbmFnZSBNdXRhbnQgTmluamEgVHVydGxlcyAoVSkgWyFdLm5lcw==&t=%E6%BF%80%E9%BE%9F%E5%BF%8D%E8%80%85%E4%BC%A0(%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9F)%E7%BE%8E%E7%89%88&ac=3&p=/fcpic/2258a.png",
+    "img": "https://img.1990i.com/fcpic/2258a.png",
+    "name": "激龟忍者传(忍者神龟)美版",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "忍者神龟"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Teenage Mutant Ninja Turtles (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3303&n=L2Zjcm9tL2R6bXgvVGVlbmFnZSBNdXRhbnQgSGVybyBUdXJ0bGVzIC0gVG91cm5hbWVudCBGaWdodGVycyAoRSkgWyFdLm5lcw==&t=%E6%BF%80%E9%BE%9F%E5%BF%AB%E6%89%93(%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9F%E6%A0%BC%E6%96%97)%E6%AC%A7%E7%89%88&ac=3&p=/fcpic/2254a.png",
+    "img": "https://img.1990i.com/fcpic/2254a.png",
+    "name": "激龟快打(忍者神龟格斗)欧版",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "忍者神龟"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Teenage Mutant Hero Turtles - Tournament Fighters (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3304&n=L2Zjcm9tL2R6bXgvVGVlbmFnZSBNdXRhbnQgTmluamEgVHVydGxlcyAtIFRvdXJuYW1lbnQgRmlnaHRlcnMgKFUpIFshXS5uZXM=&t=%E6%BF%80%E9%BE%9F%E5%BF%AB%E6%89%93(%E5%BF%8D%E8%80%85%E7%A5%9E%E9%BE%9F%E6%A0%BC%E6%96%97)%E7%BE%8E%E7%89%88&ac=3&p=/fcpic/2259a.png",
+    "img": "https://img.1990i.com/fcpic/2259a.png",
+    "name": "激龟快打(忍者神龟格斗)美版",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "忍者神龟"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Teenage Mutant Ninja Turtles - Tournament Fighters (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3309&n=L2Zjcm9tL2R6bXgvQmF0dGxldG9hZHMgJiBEb3VibGUgRHJhZ29uIC0gVGhlIFVsdGltYXRlIFRlYW0gKEUpIFshXS5uZXM=&t=%E5%BF%8D%E8%80%85%E8%9B%99%E4%B8%8E%E5%8F%8C%E6%88%AA%E9%BE%99(%E6%AC%A7%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "忍者蛙与双截龙(欧版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "忍者蛙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Battletoads & Double Dragon - The Ultimate Team (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3310&n=L2Zjcm9tL2R6bXgvQmF0dGxldG9hZHMgJiBEb3VibGUgRHJhZ29uIC0gVGhlIFVsdGltYXRlIFRlYW0gKFUpIFshXS5uZXM=&t=%E5%BF%8D%E8%80%85%E8%9B%99%E4%B8%8E%E5%8F%8C%E6%88%AA%E9%BE%99(%E7%BE%8E%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "忍者蛙与双截龙(美版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "忍者蛙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Battletoads & Double Dragon - The Ultimate Team (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4087&n=L2Zjcm9tL3NqL1NvbiBTb24gKEopIFshXS5uZXM=&t=%E8%A5%BF%E6%B8%B8%E8%AE%B0(%E5%AD%99%E5%AD%99)&ac=3&p=/fcpic/sj/2045a.png",
+    "img": "https://img.1990i.com/fcpic/sj/2045a.png",
+    "name": "西游记(孙孙)",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Son Son (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3321&n=L2Zjcm9tL2R6bXgvTWlnaHR5IEZpbmFsIEZpZ2h0IChKKSBbIV0ubmVz&t=%E5%BF%AB%E6%89%93%E6%97%8B%E9%A3%8E&ac=3&p=/fcpic/1455a.png",
+    "img": "https://img.1990i.com/fcpic/1455a.png",
+    "name": "快打旋风",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Mighty Final Fight (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3325&n=L2Zjcm9tL2R6bXgvTWlnaHR5IEZpbmFsIEZpZ2h0IChVKSBbVCtDaGldLm5lcw==&t=%E5%BF%AB%E6%89%93%E6%97%8B%E9%A3%8E-%E4%B8%AD%E6%96%87&ac=3&p=/fcpic/1456a.png",
+    "img": "https://img.1990i.com/fcpic/1456a.png",
+    "name": "快打旋风-中文",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Mighty Final Fight (U) [T+Chi].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5132&n=L2Zjcm9tL2pzYnl6dy/lroflrpnmiJjlsIYo5pyA57uI5bm75oOzMikuTkVT&t=%E5%AE%87%E5%AE%99%E6%88%98%E5%B0%86(%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B32)%20(C)&ac=3&p=/fcpic/jsbyzw/FC_5132.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5132.gif",
+    "name": "宇宙战将(最终幻想2) (C)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/宇宙战将(最终幻想2).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5134&n=L2Zjcm9tL2pzYnl6dy9GaW5hbCBGYW50YXN5IChKKS5uZXM=&t=%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B3(%E5%A4%AA%E7%A9%BA%E6%88%98%E5%A3%AB)&ac=3&p=/fcpic/jsbyzw/FC_5134.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5134.gif",
+    "name": "最终幻想(太空战士)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Final Fantasy (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5151&n=L2Zjcm9tL2pzYnl6dy9bTkowNjNdIEZpbmFsIEZhbnRhc3kgVklJLk5FUw==&t=%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B37(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5151.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5151.gif",
+    "name": "最终幻想7(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/[NJ063] Final Fantasy VII.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5153&n=L2Zjcm9tL2pzYnl6dy9GRjFFLk5FUw==&t=%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B3%E7%BE%8E%E7%89%88(%E5%A4%AA%E7%A9%BA%E6%88%98%E5%A3%AB%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/jsbyzw/FC_5153.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5153.gif",
+    "name": "最终幻想美版(太空战士美版)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/FF1E.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5159&n=L2Zjcm9tL2pzYnl6dy9bRVMtMTA3OF0gR2UgTGFuIERpIFlhIChDKS5ORVM=&t=%E6%A0%BC%E5%85%B0%E8%92%82%E4%BA%9A%20(C)%20(2)&ac=3&p=/fcpic/jsbyzw/FC_5159.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5159.gif",
+    "name": "格兰蒂亚 (C) (2)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/[ES-1078] Ge Lan Di Ya (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5161&n=L2Zjcm9tL2pzYnl6dy9NZW5nIEh1YW4gKEMpLk5FUw==&t=%E6%A2%A6%E5%B9%BB-%E9%A6%99%E5%B8%85%E4%BC%A0%E5%A5%87%E4%B9%8B%E8%A1%80%E6%B5%B7%E9%A3%98%E9%A6%99%E4%B8%AD%E6%96%87(%E6%A5%9A%E7%95%99%E9%A6%99%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5161.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5161.gif",
+    "name": "梦幻-香帅传奇之血海飘香中文(楚留香中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Meng Huan (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5172&n=L2Zjcm9tL2pzYnl6dy9TaHVpIEh1IFNoZW4gU2hvdSAoTkowMTkpIChDaCkubmVz&t=%E6%B0%B4%E6%B5%92%E7%A5%9E%E5%85%BD(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5172.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5172.gif",
+    "name": "水浒神兽(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Shui Hu Shen Shou (NJ019) (Ch).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5177&n=L2Zjcm9tL2pzYnl6dy/mt7fmsozkuJbnlYwubmVz&t=%E6%B7%B7%E6%B2%8C%E4%B8%96%E7%95%8C(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5177.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5177.gif",
+    "name": "混沌世界(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/混沌世界.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5179&n=L2Zjcm9tL2pzYnl6dy9ZdS1HaS1PaCAoTkowMzIpIChDaCkgWyFdLm5lcw==&t=%E6%B8%B8%E6%88%8F%E7%8E%8B(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5179.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5179.gif",
+    "name": "游戏王(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Yu-Gi-Oh (NJ032) (Ch) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5180&n=L2Zjcm9tL2pzYnl6dy9bTkowODFdIEh1byBZaW5nIFJlbiBaaGUgKEMpLk5FUw==&t=%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5180.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5180.gif",
+    "name": "火影忍者(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/[NJ081] Huo Ying Ren Zhe (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4929&n=L2Zjcm9tL2pzYnl6dy8zNkouTkVT&t=36%E8%AE%A1(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_4929.jpg",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_4929.jpg",
+    "name": "36计(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/36J.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4931&n=L2Zjcm9tL2pzYnl6dy9bTkowOTVdIFFpIExvbmcgWmh1IERhIE1hbyBYaWFuIChDKS5ORVM=&t=%E4%B8%83%E9%BE%99%E7%8F%A0%E5%A4%A7%E5%86%92%E9%99%A9&ac=3&p=/fcpic/jsbyzw/FC_4931.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_4931.gif",
+    "name": "七龙珠大冒险",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/[NJ095] Qi Long Zhu Da Mao Xian (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5187&n=L2Zjcm9tL2pzYnl6dy/nlJ/ljJbljbHmnLoubmVz&t=%E7%94%9F%E5%8C%96%E5%8D%B1%E6%9C%BA(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5187.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5187.gif",
+    "name": "生化危机(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/生化危机.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4932&n=L2Zjcm9tL2pzYnl6dy9bRVMtMTA3MV0g5LiJ5L6g5LqU5LmJIChDKS5ORVM=&t=%E4%B8%89%E4%BE%A0%E4%BA%94%E4%B9%89%20(C)(Byemu%20dump)&ac=3&p=/fcpic/jsbyzw/FC_4932.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_4932.gif",
+    "name": "三侠五义 (C)(Byemu dump)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/[ES-1071] 三侠五义 (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5190&n=L2Zjcm9tL2pzYnl6dy9zYW11cmFpX2lpX3JwZyhjKS5uZXM=&t=%E7%9C%9F%E4%BE%8D%E9%AD%82-%E6%AD%A6%E5%A3%AB%E9%81%93%E7%83%88%E4%BC%A0(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5190.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5190.gif",
+    "name": "真侍魂-武士道烈传(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/samurai_ii_rpg(c).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5193&n=L2Zjcm9tL2pzYnl6dy9TYW5hZGEgSnV1IFl1dXNoaSAoRVMtMTEwMikoQ2gpLm5lcw==&t=%E7%9C%9F%E7%94%B0%E5%8D%81%E5%8B%87%E5%A3%AB(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5193.png",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5193.png",
+    "name": "真田十勇士(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Sanada Juu Yuushi (ES-1102)(Ch).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4938&n=L2Zjcm9tL2pzYnl6dy9TYW4gR3VvIFpoaSAtIENhb0NhbyBaaHVhbiAoTkowMTgpIChDaCkubmVz&t=%E4%B8%89%E5%9B%BD%E5%BF%97-%E6%9B%B9%E6%93%8D%E4%BC%A0(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_4938.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_4938.gif",
+    "name": "三国志-曹操传(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/San Guo Zhi - CaoCao Zhuan (NJ018) (Ch).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5199&n=L2Zjcm9tL2pzYnl6dy9YQUpILm5lcw==&t=%E7%AC%91%E5%82%B2%E6%B1%9F%E6%B9%96(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5199.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5199.gif",
+    "name": "笑傲江湖(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/XAJH.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4952&n=L2Zjcm9tL2pzYnl6dy9TYW4gR3VvIFd1IFNodWFuZyAtIE1lbmcgSmlhbmcgWmh1YW4gKEMpLk5FUw==&t=%E4%B8%89%E5%9B%BD%E6%97%A0%E5%8F%8C-%E7%8C%9B%E5%B0%86%E4%BC%A0(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_4952.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_4952.gif",
+    "name": "三国无双-猛将传(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/San Guo Wu Shuang - Meng Jiang Zhuan (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5208&n=L2Zjcm9tL2pzYnl6dy95bHF4ei5uZXM=&t=%E8%8B%B1%E7%83%88%E7%BE%A4%E4%BE%A0%E4%BC%A0(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5208.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5208.gif",
+    "name": "英烈群侠传(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/ylqxz.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5214&n=L2Zjcm9tL2pzYnl6dy9HZW4gS2UgTGUgWmh1YW4gKEMpLm5lcw==&t=%E8%8D%86%E8%BD%B2%E6%96%B0%E4%BC%A0(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5214.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5214.gif",
+    "name": "荆轲新传(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Gen Ke Le Zhuan (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5216&n=L2Zjcm9tL2pzYnl6dy9IdSBMdSBKaW4gR2FuZyAoTkowMzkpIChDaCkgWyFdLm5lcw==&t=%E8%91%AB%E8%8A%A6%E9%87%91%E5%88%9A(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5216.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5216.gif",
+    "name": "葫芦金刚(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Hu Lu Jin Gang (NJ039) (Ch) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4962&n=L2Zjcm9tL2pzYnl6dy/ml6Dlj4zlpKfom4fkuYvkuInlm73lpKfkubHmlpcubmVz&t=%E5%90%9E%E9%A3%9F%E5%A4%A9%E5%9C%B02-%E6%97%A0%E5%8F%8C%E5%A4%A7%E8%9B%87%E4%B9%8B%E4%B8%89%E5%9B%BD%E5%A4%A7%E4%B9%B1%E6%96%97&ac=3&p=/fcpic/jsbyzw/FC_4962.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_4962.gif",
+    "name": "吞食天地2-无双大蛇之三国大乱斗",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/无双大蛇之三国大乱斗.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5227&n=L2Zjcm9tL2pzYnl6dy9ldmVycXVlc3QoQykubmVz&t=%E9%87%8C%E8%A7%81%E5%85%AB%E7%8A%AC%E4%BC%A0%E4%B8%AD%E6%96%87(%E6%97%A0%E5%B0%BD%E7%9A%84%E4%BB%BB%E5%8A%A1%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5227.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5227.gif",
+    "name": "里见八犬传中文(无尽的任务中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/everquest(C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4972&n=L2Zjcm9tL2pzYnl6dy9bTkowNzJdIEZlbmcgWWluIERhby5ORVM=&t=%E4%B8%9C%E6%96%B9%E7%9A%84%E4%BC%A0%E8%AF%B4%E4%B9%8B%E5%B0%81%E5%8D%B0%E5%B2%9B(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_4972.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_4972.gif",
+    "name": "东方的传说之封印岛(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/[NJ072] Feng Yin Dao.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5232&n=L2Zjcm9tL2pzYnl6dy9NZXRhbCBNYXgubmVz&t=%E9%87%8D%E8%A3%85%E6%9C%BA%E5%85%B5&ac=3&p=/fcpic/jsbyzw/FC_5232.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5232.gif",
+    "name": "重装机兵",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Metal Max.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4977&n=L2Zjcm9tL2pzYnl6dy9wYWxfSS5uZXM=&t=%E4%BB%99%E5%89%91%E5%A5%87%E4%BE%A0%E4%BC%A0(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_4977.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_4977.gif",
+    "name": "仙剑奇侠传(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/pal_I.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4979&n=L2Zjcm9tL2pzYnl6dy/kvqDlrqLmg4Ut6I2G6L2y5Yi656em546LLm5lcw==&t=%E4%BE%A0%E5%AE%A2%E6%83%85--%E8%8D%86%E8%BD%B2%E5%88%BA%E7%A7%A6%E7%8E%8B(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_4979.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_4979.gif",
+    "name": "侠客情--荆轲刺秦王(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/侠客情-荆轲刺秦王.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4985&n=L2Zjcm9tL2pzYnl6dy9EUTJDLk5FUw==&t=%E5%8B%87%E8%80%85%E6%96%97%E6%81%B6%E9%BE%992(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_4985.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_4985.gif",
+    "name": "勇者斗恶龙2(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/DQ2C.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4987&n=L2Zjcm9tL2pzYnl6dy9Zb25nIFplIERvIFJlIExvbmcgNiAoQykubmVz&t=%E5%8B%87%E8%80%85%E6%96%97%E6%81%B6%E9%BE%993(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_4987.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_4987.gif",
+    "name": "勇者斗恶龙3(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Yong Ze Do Re Long 6 (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4990&n=L2Zjcm9tL2pzYnl6dy/li4fogIXmlpfmgbbpvpk05Lit5paH54mILm5lcw==&t=%E5%8B%87%E8%80%85%E6%96%97%E6%81%B6%E9%BE%994(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_4990.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_4990.gif",
+    "name": "勇者斗恶龙4(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/勇者斗恶龙4中文版.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4997&n=L2Zjcm9tL2pzYnl6dy9EcmFnb24gUXVlc3QgVklJSSAoQylbIV0ubmVz&t=%E5%8B%87%E8%80%85%E6%96%97%E6%81%B6%E9%BE%998(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_4997.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_4997.gif",
+    "name": "勇者斗恶龙8(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Dragon Quest VIII (C)[!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5004&n=L2Zjcm9tL2pzYnl6dy9Qb2NrTW9uUmVkKEMpLm5lcw==&t=%E5%8F%A3%E8%A2%8B%E5%A6%96%E6%80%AA-%E7%BA%A2(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5004.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5004.gif",
+    "name": "口袋妖怪-红(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/PockMonRed(C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5005&n=L2Zjcm9tL2pzYnl6dy/lj6PooovlppbmgKrph5EubmVz&t=%E5%8F%A3%E8%A2%8B%E5%A6%96%E6%80%AA-%E9%87%91(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5005.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5005.gif",
+    "name": "口袋妖怪-金(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/口袋妖怪金.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5261&n=L2Zjcm9tL2pzYnl6dy9KaW4gWW9uZyBRdW4gWGlhIFpodWFuIC0gU2h1IEppYW4gSmlhbmcgU2hhbiAoTkowMzEpIChDaCkubmVz&t=%E9%87%91%E5%BA%B8%E7%BE%A4%E4%BE%A0%E4%BC%A0-%E4%B9%A6%E5%89%91%E6%B1%9F%E5%B1%B1(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5261.png",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5261.png",
+    "name": "金庸群侠传-书剑江山(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Jin Yong Qun Xia Zhuan - Shu Jian Jiang Shan (NJ031) (Ch).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5008&n=L2Zjcm9tL2pzYnl6dy9Lb3UgRGFpIFlhbyBHdWFpIC0gU2h1aSBKaW5nIEJhbiAoQykuTkVT&t=%E5%8F%A3%E8%A2%8B%E7%B2%BE%E7%81%B5-%E6%B0%B4%E6%99%B6(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5008.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5008.gif",
+    "name": "口袋精灵-水晶(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Kou Dai Yao Guai - Shui Jing Ban (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5012&n=L2Zjcm9tL2pzYnl6dy9MZWkgRGlhbiBIdWFuZyBCaSBLYSBRaXUgQ2h1YW4gU2h1byAoTkowNDYpIChDaCkgWyFdLm5lcw==&t=%E9%9B%B7%E7%94%B5%E7%9A%87-%E6%AF%94%E5%8D%A1%E4%B8%98%E4%BC%A0%E8%AF%B4(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5012.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5012.gif",
+    "name": "雷电皇-比卡丘传说(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Lei Dian Huang Bi Ka Qiu Chuan Shuo (NJ046) (Ch) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5271&n=L2Zjcm9tL2pzYnl6dy9oZXJvX29uX2RldmlsX2xhbmRzKEMpLm5lcw==&t=%E9%AD%94%E5%9F%9F%E8%8B%B1%E9%9B%84%E4%BC%A0(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5271.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5271.gif",
+    "name": "魔域英雄传(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/hero_on_devil_lands(C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5016&n=L2Zjcm9tL2pzYnl6dy9aWlpfVU5LX2Rlc3Rpbnlfb2ZfYW5fZW1wZXJvciAoMjYyMjg5KS5uZXM=&t=%E5%90%9E%E9%A3%9F%E5%A4%A9%E5%9C%B0(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/jsbyzw/FC_5016.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5016.gif",
+    "name": "吞食天地(美版)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/ZZZ_UNK_destiny_of_an_emperor (262289).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5274&n=L2Zjcm9tL2pzYnl6dy9NbyBKaWUgVGEgU2hpIChDKS5ORVM=&t=%E9%AD%94%E7%95%8C%E5%A1%94%E5%A3%AB(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5274.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5274.gif",
+    "name": "魔界塔士(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Mo Jie Ta Shi (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5276&n=L2Zjcm9tL2pzYnl6dy9tb3NoZW5mYXNoaWNuLm5lcw==&t=%E9%AD%94%E7%A5%9E%E6%B3%95%E5%B8%88(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5276.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5276.gif",
+    "name": "魔神法师(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/moshenfashicn.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5280&n=L2Zjcm9tL2pzYnl6dy/pu4Tph5HnmoTlpKrpmLMubmVz&t=%E9%BB%84%E9%87%91%E7%9A%84%E5%A4%AA%E9%98%B3(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5280.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5280.gif",
+    "name": "黄金的太阳(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/黄金的太阳.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5284&n=L2Zjcm9tL2pzYnl6dy9EcmFnb24gQmFsbCBaIDIgLSBHZWtpc2hpbiBGcmVlemEhIChDKS5uZXM=&t=%E9%BE%99%E7%8F%A0Z2-%E6%BF%80%E6%96%97%E5%BC%97%E5%88%A9%E6%92%92(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5284.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5284.gif",
+    "name": "龙珠Z2-激斗弗利撒(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Dragon Ball Z 2 - Gekishin Freeza! (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5285&n=L2Zjcm9tL2pzYnl6dy9EcmFnb24gQmFsbCBaIEdhaWRlbiAtIFNhaXlhIEppbiBaZXRzdW1ldHN1IEtlaWtha3UgKEMpLm5lcw==&t=%E9%BE%99%E7%8F%A0Z%E5%A4%96%E4%BC%A0-%E5%A1%9E%E4%BA%9A%E4%BA%BA%E7%81%AD%E7%BB%9D%E8%AE%A1%E5%88%92(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5285.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5285.gif",
+    "name": "龙珠Z外传-塞亚人灭绝计划(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Dragon Ball Z Gaiden - Saiya Jin Zetsumetsu Keikaku (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5063&n=L2Zjcm9tL2pzYnl6dy9OZSBaaGEgQ2h1YW4gUWkgKE5KMDM2KSAoQ2gpIFshXS5uZXM=&t=%E5%93%AA%E5%90%92%E4%BC%A0%E5%A5%87(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5063.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5063.gif",
+    "name": "哪吒传奇(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Ne Zha Chuan Qi (NJ036) (Ch) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5064&n=L2Zjcm9tL2pzYnl6dy9bTkowNjldIFRhbmcgQm8gSHUgRGlhbiBRaXUgWGlhbmcuTkVT&t=%E5%94%90%E4%BC%AF%E8%99%8E%E7%82%B9%E7%A7%8B%E9%A6%99(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5064.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5064.gif",
+    "name": "唐伯虎点秋香(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/[NJ069] Tang Bo Hu Dian Qiu Xiang.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5104&n=L2Zjcm9tL2pzYnl6dy9IdWFuIFNoaSBMdSAoTkowMzQpIChDaCkgWyFdLm5lcw==&t=%E5%B9%BB%E4%B8%96%E5%BD%95(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5104.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5104.gif",
+    "name": "幻世录(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Huan Shi Lu (NJ034) (Ch) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5119&n=L2Zjcm9tL2pzYnl6dy9kaWdpdGFsX2RyYWdvbihDKS5uZXM=&t=%E6%95%B0%E7%A0%81%E6%9A%B4%E9%BE%99%E6%B0%B4%E6%99%B6%E7%89%88(%E4%B8%AD%E6%96%87)&ac=3&p=/fcpic/jsbyzw/FC_5119.gif",
+    "img": "https://img.1990i.com/fcpic/jsbyzw/FC_5119.gif",
+    "name": "数码暴龙水晶版(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/digital_dragon(C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3328&n=L2Zjcm9tL2R6bXgvS2Fpa2V0c3UgWWFuY2hhbWFydSAyIC0gS2FyYWt1cmkgTGFuZCAoSikubmVz&t=%E5%BF%AB%E6%9D%B0%E6%B4%8B%E6%9E%AA2&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "快杰洋枪2",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Kaiketsu Yanchamaru 2 - Karakuri Land (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3584&n=L2Zjcm9tL2R6bXgvRHJhZ29uIEJhbGwgLSBTaGVuIExvbmcgbm8gTmF6byAoSikubmVz&t=%E9%BE%99%E7%8F%A0-%E7%A5%9E%E9%BE%99%E4%B9%8B%E8%BF%B7(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/588a.png",
+    "img": "https://img.1990i.com/fcpic/588a.png",
+    "name": "龙珠-神龙之迷(日版)",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Dragon Ball - Shen Long no Nazo (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4096&n=L2Zjcm9tL3NqL1N1cGVyIFNweSBIdW50ZXIgKFUpIFshXS5uZXM=&t=%E8%B6%85%E7%BA%A7%E9%97%B4%E8%B0%8D%E7%8C%8E%E4%BA%BA(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/sj/2180a.png",
+    "img": "https://img.1990i.com/fcpic/sj/2180a.png",
+    "name": "超级间谍猎人(美版)",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Super Spy Hunter (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4352&n=L2Zjcm9tL3h5eC9CYXR0bGVzaGlwIChVKSBbIV0ubmVz&t=%E6%88%98%E8%88%B0(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/xyx/223a.png",
+    "img": "https://img.1990i.com/fcpic/xyx/223a.png",
+    "name": "战舰(美版)",
+    "tag": [
+      "FC",
+      "小游戏"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Battleship (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4608&n=L2Zjcm9tL3lkYnMvUHVuY2gtT3V0ISEgKEopLm5lcw==&t=%E8%BF%88%E5%85%8B%C2%B7%E6%B3%B0%E6%A3%AE%E6%8B%B3%E5%87%BB(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/ydbs/1737a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/1737a.png",
+    "name": "迈克·泰森拳击(日版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "拳击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Punch-Out!! (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4864&n=L2Zjcm9tL3lkYnMvVG91Y2ggRG93biBGZXZlciAoVSkgWyFdLm5lcw==&t=%E7%8B%82%E7%83%AD%E7%BE%8E%E5%BC%8F%E8%B6%B3%E7%90%83%E5%A4%A7%E8%B5%9B(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/ydbs/2352a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/2352a.png",
+    "name": "狂热美式足球大赛(美版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "足球"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Touch Down Fever (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5120&n=L2Zjcm9tL2pzYnl6dy9JbXBhcnRpYWwgSnVkZ2UgKFVubCkubmVz&t=%E6%96%B0%E5%8C%85%E9%9D%92%E5%A4%A9%E2%85%A1%20(C)(WXN%E8%A7%A3%E5%AF%86%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "新包青天Ⅱ (C)(WXN解密版)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Impartial Judge (Unl).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3329&n=L2Zjcm9tL2R6bXgvS2Fpa2V0c3UgWWFuY2hhbWFydSAzIC0gVGFpa2V0c3UhIFpvdXJpbmdlbiAoSikubmVz&t=%E5%BF%AB%E6%9D%B0%E6%B4%8B%E6%9E%AA3&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "快杰洋枪3",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Kaiketsu Yanchamaru 3 - Taiketsu! Zouringen (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3585&n=L2Zjcm9tL2R6bXgvRHJhZ29uIFBvd2VyIChVKSBbIV0ubmVz&t=%E9%BE%99%E7%8F%A0-%E7%A5%9E%E9%BE%99%E4%B9%8B%E8%BF%B7(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/600a.png",
+    "img": "https://img.1990i.com/fcpic/600a.png",
+    "name": "龙珠-神龙之迷(美版)",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Dragon Power (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4097&n=L2Zjcm9tL3NqL0JyZWFrVGhydSAoVSkgWyFdLm5lcw==&t=%E8%B6%8A%E9%87%8E%E6%88%98%E8%BD%A6&ac=3&p=/fcpic/sj/301a.png",
+    "img": "https://img.1990i.com/fcpic/sj/301a.png",
+    "name": "越野战车",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/BreakThru (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4353&n=L2Zjcm9tL3h5eC9Tb2xvbW9uIG5vIEthZ2kgKEopLm5lcw==&t=%E6%89%80%E7%BD%97%E9%97%A8%E4%B9%8B%E5%8C%99(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/xyx/2035a.png",
+    "img": "https://img.1990i.com/fcpic/xyx/2035a.png",
+    "name": "所罗门之匙(日版)",
+    "tag": [
+      "FC",
+      "小游戏",
+      "所罗门之匙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Solomon no Kagi (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4609&n=L2Zjcm9tL3lkYnMvTWlrZSBUeXNvbidzIFB1bmNoLU91dCEhIChVKSAoUFJHMCkgWyFdLm5lcw==&t=%E8%BF%88%E5%85%8B%C2%B7%E6%B3%B0%E6%A3%AE%E6%8B%B3%E5%87%BB(%E7%BE%8E%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "迈克·泰森拳击(美版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "拳击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Mike Tyson's Punch-Out!! (U) (PRG0) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4865&n=L2Zjcm9tL3lkYnMvUXVhcnRlciBCYWNrIFNjcmFtYmxlIChKKS5uZXM=&t=%E7%96%AF%E7%8B%82%E7%BE%8E%E5%BC%8F%E8%B6%B3%E7%90%83&ac=3&p=/fcpic/ydbs/1757a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/1757a.png",
+    "name": "疯狂美式足球",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "足球"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Quarter Back Scramble (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5121&n=L2Zjcm9tL2pzYnl6dy9TaGkgS29uZyBaaGkgTHVuIChDKS5ORVM=&t=%E6%97%B6%E7%A9%BA%E4%B9%8B%E8%BD%AE(%E4%B8%AD%E6%96%87)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "时空之轮(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Shi Kong Zhi Lun (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3330&n=L2Zjcm9tL2R6bXgvTW9uc3RlciBQYXJ0eSAoVSkgWyFdLm5lcw==&t=%E6%80%AA%E7%89%A9%E8%81%9A%E4%BC%9A&ac=3&p=/fcpic/1512a.png",
+    "img": "https://img.1990i.com/fcpic/1512a.png",
+    "name": "怪物聚会",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Monster Party (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4098&n=L2Zjcm9tL3NqL1JvbGxpbmcgVGh1bmRlciAoSikgWyFdLm5lcw==&t=%E8%BF%85%E9%9B%B7%E8%A1%8C%E5%8A%A8(%E9%9B%B7%E9%9C%86%E4%BB%BB%E5%8A%A1)&ac=3&p=/fcpic/sj/1860a.png",
+    "img": "https://img.1990i.com/fcpic/sj/1860a.png",
+    "name": "迅雷行动(雷霆任务)",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Rolling Thunder (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4354&n=L2Zjcm9tL3h5eC9Tb2xvbW9uJ3MgS2V5IChFKSBbIV0ubmVz&t=%E6%89%80%E7%BD%97%E9%97%A8%E4%B9%8B%E5%8C%99(%E6%AC%A7%E7%89%88)&ac=3&p=/fcpic/xyx/2037a.png",
+    "img": "https://img.1990i.com/fcpic/xyx/2037a.png",
+    "name": "所罗门之匙(欧版)",
+    "tag": [
+      "FC",
+      "小游戏",
+      "所罗门之匙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Solomon's Key (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4610&n=L2Zjcm9tL3lkYnMvVVMgQ2hhbXBpb25zaGlwIFYnQmFsbCAoSikubmVz&t=%E5%85%A8%E7%BE%8E%E6%B2%99%E6%BB%A9%E6%8E%92%E7%90%83%E9%94%A6%E6%A0%87%E8%B5%9B(%E6%97%A5%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "全美沙滩排球锦标赛(日版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "排球"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/US Championship V'Ball (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4866&n=L2Zjcm9tL3lkYnMvU29jY2VyIExlYWd1ZSAtIFdpbm5lcidzIEN1cCAoSikubmVz&t=%E8%83%9C%E5%88%A9%E6%9D%AF%E8%B6%B3%E7%90%83%E8%B5%9B&ac=3&p=/fcpic/ydbs/2030a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/2030a.png",
+    "name": "胜利杯足球赛",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "足球"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Soccer League - Winner's Cup (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5122&n=L2Zjcm9tL2pzYnl6dy9TVEFSVFJPMi5ORVM=&t=%E6%98%9F%E4%B9%8B%E6%B5%B7%E6%B4%8B2&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "星之海洋2",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/STARTRO2.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3331&n=L2Zjcm9tL2R6bXgvRGFya3dpbmcgRHVjayAoRSkgWyFdLm5lcw==&t=%E6%80%AA%E9%B8%AD%E5%8E%86%E9%99%A9%E8%AE%B0(%E6%AC%A7%E7%89%88)&ac=3&p=/fcpic/482a.png",
+    "img": "https://img.1990i.com/fcpic/482a.png",
+    "name": "怪鸭历险记(欧版)",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Darkwing Duck (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3587&n=L2Zjcm9tL2Z4c2ovMTk0MiAoSlUpIFshXS5uZXM=&t=1942&ac=3&p=/fcpic/5a.png",
+    "img": "https://img.1990i.com/fcpic/5a.png",
+    "name": "1942",
+    "tag": [
+      "FC",
+      "飞行射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/fxsj/1942 (JU) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4099&n=L2Zjcm9tL3NqL1JvbGxpbmcgVGh1bmRlciAoVGVuZ2VuKSBbIV0ubmVz&t=%E8%BF%85%E9%9B%B7%E8%A1%8C%E5%8A%A8(%E9%9B%B7%E9%9C%86%E4%BB%BB%E5%8A%A1)%E3%80%90%E5%A4%A9%E6%AD%A3%E3%80%91&ac=3&p=/fcpic/sj/1860a.png",
+    "img": "https://img.1990i.com/fcpic/sj/1860a.png",
+    "name": "迅雷行动(雷霆任务)【天正】",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Rolling Thunder (Tengen) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4355&n=L2Zjcm9tL3h5eC9Tb2xvbW9uJ3MgS2V5IChVKSBbIV0ubmVz&t=%E6%89%80%E7%BD%97%E9%97%A8%E4%B9%8B%E5%8C%99(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/xyx/2038a.png",
+    "img": "https://img.1990i.com/fcpic/xyx/2038a.png",
+    "name": "所罗门之匙(美版)",
+    "tag": [
+      "FC",
+      "小游戏",
+      "所罗门之匙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Solomon's Key (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4611&n=L2Zjcm9tL3lkYnMvU3VwZXIgU3Bpa2UgVidCYWxsIChVKSBbIV0ubmVz&t=%E5%85%A8%E7%BE%8E%E6%B2%99%E6%BB%A9%E6%8E%92%E7%90%83%E9%94%A6%E6%A0%87%E8%B5%9B(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/ydbs/2173a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/2173a.png",
+    "name": "全美沙滩排球锦标赛(美版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "排球"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Super Spike V'Ball (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4867&n=L2Zjcm9tL3lkYnMvSm9obiBFbHdheSdzIFF1YXJ0ZXJiYWNrIChVKSBbIV0ubmVz&t=%E8%B6%85%E5%BC%BA%E5%9B%9B%E5%88%86%E5%8D%AB&ac=3&p=/fcpic/ydbs/1110a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/1110a.png",
+    "name": "超强四分卫",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "足球"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/John Elway's Quarterback (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5123&n=L2Zjcm9tL2pzYnl6dy9YaW5nIFpoYW4gUWluZyBZdWFuIChDKS5ORVM=&t=%E6%98%9F%E6%88%98%E6%83%85%E7%BC%98(%E4%B8%AD%E6%96%87)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "星战情缘(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Xing Zhan Qing Yuan (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3332&n=L2Zjcm9tL2R6bXgvRGFya3dpbmcgRHVjayAoVSkgWyFdLm5lcw==&t=%E6%80%AA%E9%B8%AD%E5%8E%86%E9%99%A9%E8%AE%B0(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/482a.png",
+    "img": "https://img.1990i.com/fcpic/482a.png",
+    "name": "怪鸭历险记(美版)",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Darkwing Duck (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3588&n=L2Zjcm9tL2Z4c2ovMTk0MyAtIFRoZSBCYXR0bGUgb2YgVmFsaGFsbGEgKEopIFshXS5uZXM=&t=1943(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/8a.png",
+    "img": "https://img.1990i.com/fcpic/8a.png",
+    "name": "1943(日版)",
+    "tag": [
+      "FC",
+      "飞行射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/fxsj/1943 - The Battle of Valhalla (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4100&n=L2Zjcm9tL3NqL1JvbGxpbmcgVGh1bmRlciAoVGVuZ2VuKSBbVCtDaGlfS2FtbWluZ10ubmVz&t=%E8%BF%85%E9%9B%B7%E8%A1%8C%E5%8A%A8(%E9%9B%B7%E9%9C%86%E4%BB%BB%E5%8A%A1)%E3%80%90%E5%A4%A9%E6%AD%A3%E3%80%91%E4%B8%AD%E6%96%87&ac=3&p=/fcpic/sj/1860a.png",
+    "img": "https://img.1990i.com/fcpic/sj/1860a.png",
+    "name": "迅雷行动(雷霆任务)【天正】中文",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Rolling Thunder (Tengen) [T+Chi_Kamming].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4356&n=L2Zjcm9tL3h5eC9Tb2xvbW9uIG5vIEthZ2kgMiAtIENvb2xtaW4gVG91IEt5dXVzaHV0c3UgU2FrdXNlbiAoSikubmVz&t=%E6%89%80%E7%BD%97%E9%97%A8%E4%B9%8B%E5%8C%992(%E6%97%A5%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "所罗门之匙2(日版)",
+    "tag": [
+      "FC",
+      "小游戏",
+      "所罗门之匙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Solomon no Kagi 2 - Coolmin Tou Kyuushutsu Sakusen (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4612&n=L2Zjcm9tL3lkYnMvVm9sbGV5YmFsbCAoVUUpIFshXS5uZXM=&t=%E6%8E%92%E7%90%83&ac=3&p=/fcpic/ydbs/2424a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/2424a.png",
+    "name": "排球",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "排球"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Volleyball (UE) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4868&n=L2Zjcm9tL3lkYnMvU3VwZXIgUnVnYnkgKEopIFshXS5uZXM=&t=%E8%B6%85%E7%BA%A7%E6%A9%84%E6%A6%84%E7%90%83&ac=3&p=/fcpic/ydbs/2171a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/2171a.png",
+    "name": "超级橄榄球",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "足球"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Super Rugby (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5124&n=L2Zjcm9tL2pzYnl6dy9YaW5nIEhlIFpoYW4gU2hpIChDKS5ORVM=&t=%E6%98%9F%E6%B2%B3%E6%88%98%E5%A3%AB(%E4%B8%AD%E6%96%87)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "星河战士(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Xing He Zhan Shi (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3333&n=L2Zjcm9tL2R6bXgvRGV2aWwgTWFuIChKKS5uZXM=&t=%E6%81%B6%E9%AD%94%E4%BA%BA&ac=3&p=/fcpic/519a.png",
+    "img": "https://img.1990i.com/fcpic/519a.png",
+    "name": "恶魔人",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Devil Man (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3589&n=L2Zjcm9tL2Z4c2ovMTk0MyAtIFRoZSBCYXR0bGUgb2YgTWlkd2F5IChVKSBbIV0ubmVz&t=1943(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/7a.png",
+    "img": "https://img.1990i.com/fcpic/7a.png",
+    "name": "1943(美版)",
+    "tag": [
+      "FC",
+      "飞行射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/fxsj/1943 - The Battle of Midway (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4101&n=L2Zjcm9tL3NqL0p1dXJ5b2t1IFNvdWtvdSBNZXRhbCBTdG9ybSAoSikubmVz&t=%E9%87%8D%E5%8A%9B%E8%A3%85%E7%94%B2(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/sj/1133a.png",
+    "img": "https://img.1990i.com/fcpic/sj/1133a.png",
+    "name": "重力装甲(日版)",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Juuryoku Soukou Metal Storm (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4357&n=L2Zjcm9tL3h5eC9Tb2xvbW9uJ3MgS2V5IDIgKEUpIFshXS5uZXM=&t=%E6%89%80%E7%BD%97%E9%97%A8%E4%B9%8B%E5%8C%992(%E6%AC%A7%E7%89%88)&ac=3&p=/fcpic/xyx/2039a.png",
+    "img": "https://img.1990i.com/fcpic/xyx/2039a.png",
+    "name": "所罗门之匙2(欧版)",
+    "tag": [
+      "FC",
+      "小游戏",
+      "所罗门之匙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Solomon's Key 2 (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4613&n=L2Zjcm9tL3lkYnMvS2luZ3Mgb2YgdGhlIEJlYWNoIChVKSBbIV0ubmVz&t=%E6%B2%99%E6%BB%A9%E6%8E%92%E7%90%83%E7%8E%8B&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "沙滩排球王",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "排球"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Kings of the Beach (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4869&n=L2Zjcm9tL3lkYnMvU29jY2VyIChKVSkgWyFdLm5lcw==&t=%E8%B6%B3%E7%90%83&ac=3&p=/fcpic/ydbs/1223a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/1223a.png",
+    "name": "足球",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "足球"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Soccer (JU) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5125&n=L2Zjcm9tL2pzYnl6dy9FbXBpcmUgU3RyaWtlcyBCYWNrLCBUaGUgKEopLm5lcw==&t=%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98-%E5%B8%9D%E5%9B%BD%E5%8F%8D%E5%87%BB%E6%88%98&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "星球大战-帝国反击战",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Empire Strikes Back, The (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3334&n=L2Zjcm9tL2R6bXgvQWt1bWFqb3UgRHJhY3VsYSAoSikgWyFdLm5lcw==&t=%E6%81%B6%E9%AD%94%E5%9F%8E(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/87a.png",
+    "img": "https://img.1990i.com/fcpic/87a.png",
+    "name": "恶魔城(日版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "恶魔城"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Akumajou Dracula (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3590&n=L2Zjcm9tL2Z4c2ovQi1XaW5ncyAoSikgWyFdLm5lcw==&t=B%E8%AE%A1%E5%88%92&ac=3&p=/fcpic/151a.png",
+    "img": "https://img.1990i.com/fcpic/151a.png",
+    "name": "B计划",
+    "tag": [
+      "FC",
+      "飞行射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/fxsj/B-Wings (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4102&n=L2Zjcm9tL3NqL01ldGFsIFN0b3JtIChVKSBbIV0ubmVz&t=%E9%87%8D%E5%8A%9B%E8%A3%85%E7%94%B2(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/sj/1432a.png",
+    "img": "https://img.1990i.com/fcpic/sj/1432a.png",
+    "name": "重力装甲(美版)",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Metal Storm (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4358&n=L2Zjcm9tL3h5eC9GaXJlICduIEljZSAoVSkgWyFdLm5lcw==&t=%E6%89%80%E7%BD%97%E9%97%A8%E4%B9%8B%E5%8C%992(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/xyx/764a.png",
+    "img": "https://img.1990i.com/fcpic/xyx/764a.png",
+    "name": "所罗门之匙2(美版)",
+    "tag": [
+      "FC",
+      "小游戏",
+      "所罗门之匙"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Fire 'n Ice (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4614&n=L2Zjcm9tL3lkYnMvVmVuaWNlIEJlYWNoIFZvbGxleWJhbGwgKEFWRSkgWyFdLm5lcw==&t=%E7%BB%B4%E5%B0%BC%E6%96%AF%E6%B2%99%E6%BB%A9%E6%8E%92%E7%90%83%E3%80%90AVE%E3%80%91&ac=3&p=/fcpic/ydbs/2424a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/2424a.png",
+    "name": "维尼斯沙滩排球【AVE】",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "排球"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Venice Beach Volleyball (AVE) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4870&n=L2Zjcm9tL3lkYnMvVG9wIFN0cmlrZXIgKEopLm5lcw==&t=%E9%A1%B6%E7%BA%A7%E5%B0%84%E6%89%8B&ac=3&p=/fcpic/ydbs/2343a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/2343a.png",
+    "name": "顶级射手",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "足球"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Top Striker (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5126&n=L2Zjcm9tL2pzYnl6dy9TdGFyIFdhcnMgLSBUaGUgRW1waXJlIFN0cmlrZXMgQmFjayAoVSkgKFByb3RvdHlwZSkgWyFdLm5lcw==&t=%E6%98%9F%E7%90%83%E5%A4%A7%E6%88%98-%E5%B8%9D%E5%9B%BD%E5%8F%8D%E5%87%BB%E6%88%98(%E7%BE%8E%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "星球大战-帝国反击战(美版)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Star Wars - The Empire Strikes Back (U) (Prototype) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3335&n=L2Zjcm9tL2R6bXgvQ2FzdGxldmFuaWEgKEUpIFshXS5uZXM=&t=%E6%81%B6%E9%AD%94%E5%9F%8E(%E6%AC%A7%E7%89%88)&ac=3&p=/fcpic/359a.png",
+    "img": "https://img.1990i.com/fcpic/359a.png",
+    "name": "恶魔城(欧版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "恶魔城"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Castlevania (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3591&n=L2Zjcm9tL2Z4c2ovU2VjdGlvbi1aIChFKSBbIV0ubmVz&t=Z%E5%9F%BA%E5%9C%B0(%E6%AC%A7%E7%89%88)&ac=3&p=/fcpic/1926a.png",
+    "img": "https://img.1990i.com/fcpic/1926a.png",
+    "name": "Z基地(欧版)",
+    "tag": [
+      "FC",
+      "飞行射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/fxsj/Section-Z (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4103&n=L2Zjcm9tL3NqL01ldGFsIEZsYW1lIFBzeWJ1c3RlciAoSikubmVz&t=%E9%87%91%E5%B1%9E%E8%A3%85%E7%94%B2(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/sj/1425a.png",
+    "img": "https://img.1990i.com/fcpic/sj/1425a.png",
+    "name": "金属装甲(日版)",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Metal Flame Psybuster (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4359&n=L2Zjcm9tL3h5eC9IaXQgTW91c2UgKFVubCkubmVz&t=%E6%89%93%E5%9C%B0%E9%BC%A0%20(Unl)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "打地鼠 (Unl)",
+    "tag": [
+      "FC",
+      "小游戏"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Hit Mouse (Unl).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4615&n=L2Zjcm9tL3lkYnMvU3VwZXJzdGFyIFBybyBXcmVzdGxpbmcgKEopLm5lcw==&t=WCW%E4%B8%96%E7%95%8C%E6%91%94%E8%A7%92(%E8%B6%85%E7%BA%A7%E6%98%8E%E6%98%9F%E6%91%94%E8%A7%92)%E6%97%A5%E7%89%88&ac=3&p=/fcpic/ydbs/2187a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/2187a.png",
+    "name": "WCW世界摔角(超级明星摔角)日版",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "摔角"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Superstar Pro Wrestling (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4871&n=L2Zjcm9tL3lkYnMvTWFyaW8gT3BlbiBHb2xmIChKKS5uZXM=&t=%E4%BB%BB%E5%A4%A9%E5%A0%82%E9%AB%98%E5%B0%94%E5%A4%AB%E5%85%AC%E5%BC%80%E8%B5%9B(%E9%A9%AC%E9%87%8C%E5%A5%A5%E9%AB%98%E5%B0%94%E5%A4%AB)%E6%97%A5%E7%89%88&ac=3&p=/fcpic/ydbs/1374a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/1374a.png",
+    "name": "任天堂高尔夫公开赛(马里奥高尔夫)日版",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "高尔夫"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Mario Open Golf (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5127&n=L2Zjcm9tL2pzYnl6dy9YaW5nIEppIFpoZW5nIEJhIChDKS5ORVM=&t=%E6%98%9F%E9%99%85%E4%BA%89%E9%9C%B8(%E4%B8%AD%E6%96%87)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "星际争霸(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Xing Ji Zheng Ba (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3336&n=L2Zjcm9tL2R6bXgvQ2FzdGxldmFuaWEgKFUpIChQUkcxKSBbIV0ubmVz&t=%E6%81%B6%E9%AD%94%E5%9F%8E(%E7%BE%8E%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "恶魔城(美版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "恶魔城"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Castlevania (U) (PRG1) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3592&n=L2Zjcm9tL2Z4c2ovU2VjdGlvbi1aIChVKSBbIV0ubmVz&t=Z%E5%9F%BA%E5%9C%B0(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/1926a.png",
+    "img": "https://img.1990i.com/fcpic/1926a.png",
+    "name": "Z基地(美版)",
+    "tag": [
+      "FC",
+      "飞行射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/fxsj/Section-Z (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4104&n=L2Zjcm9tL3NqL01ldGFsIE1lY2ggLSBNYW4gJiBNYWNoaW5lIChVKSBbIV0ubmVz&t=%E9%87%91%E5%B1%9E%E8%A3%85%E7%94%B2(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/sj/1430a.png",
+    "img": "https://img.1990i.com/fcpic/sj/1430a.png",
+    "name": "金属装甲(美版)",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Metal Mech - Man & Machine (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4360&n=L2Zjcm9tL3h5eC9GYW1pbHkgQmxvY2sgKEopLm5lcw==&t=%E5%AE%B6%E5%BA%AD%E6%89%93%E7%A0%96%E5%9D%97(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/xyx/698a.png",
+    "img": "https://img.1990i.com/fcpic/xyx/698a.png",
+    "name": "家庭打砖块(日版)",
+    "tag": [
+      "FC",
+      "小游戏",
+      "打砖块"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Family Block (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4616&n=L2Zjcm9tL3lkYnMvV0NXIFdvcmxkIENoYW1waW9uc2hpcCBXcmVzdGxpbmcgKFUpIFshXS5uZXM=&t=WCW%E4%B8%96%E7%95%8C%E6%91%94%E8%A7%92(%E8%B6%85%E7%BA%A7%E6%98%8E%E6%98%9F%E6%91%94%E8%A7%92)%E7%BE%8E%E7%89%88&ac=3&p=/fcpic/ydbs/2452a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/2452a.png",
+    "name": "WCW世界摔角(超级明星摔角)美版",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "摔角"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/WCW World Championship Wrestling (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4872&n=L2Zjcm9tL3lkYnMvTkVTIE9wZW4gVG91cm5hbWVudCBHb2xmIChVKSBbIV0ubmVz&t=%E4%BB%BB%E5%A4%A9%E5%A0%82%E9%AB%98%E5%B0%94%E5%A4%AB%E5%85%AC%E5%BC%80%E8%B5%9B(%E9%A9%AC%E9%87%8C%E5%A5%A5%E9%AB%98%E5%B0%94%E5%A4%AB)%E7%BE%8E%E7%89%88&ac=3&p=/fcpic/ydbs/1551a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/1551a.png",
+    "name": "任天堂高尔夫公开赛(马里奥高尔夫)美版",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "高尔夫"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/NES Open Tournament Golf (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5128&n=L2Zjcm9tL2pzYnl6dy9TRy5ORVM=&t=%E6%98%9F%E9%99%85%E6%AD%A6%E5%A3%AB&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "星际武士",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/SG.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3337&n=L2Zjcm9tL2R6bXgvQ2FzdGxldmFuaWEgSUkgLSBTaW1vbidzIFF1ZXN0IChFKSBbIV0ubmVz&t=%E6%81%B6%E9%AD%94%E5%9F%8E2(%E6%AC%A7%E7%89%88)&ac=3&p=/fcpic/359a.png",
+    "img": "https://img.1990i.com/fcpic/359a.png",
+    "name": "恶魔城2(欧版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "恶魔城"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Castlevania II - Simon's Quest (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3593&n=L2Zjcm9tL2Z4c2ovU2lsa3dvcm0gKFUpIFshXS5uZXM=&t=%E4%B8%AD%E4%B8%9C%E6%88%98%E4%BA%89(%E8%81%94%E5%90%88%E5%A4%A7%E4%BD%9C%E6%88%98)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "中东战争(联合大作战)",
+    "tag": [
+      "FC",
+      "飞行射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/fxsj/Silkworm (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4105&n=L2Zjcm9tL3NqL0dyZWF0IFRhbmsgKEopLm5lcw==&t=%E9%92%A2%E9%93%81%E5%9D%A6%E5%85%8B(%E5%A4%A7%E5%9D%A6%E5%85%8B)%E6%97%A5%E7%89%88&ac=3&p=/fcpic/sj/903a.png",
+    "img": "https://img.1990i.com/fcpic/sj/903a.png",
+    "name": "钢铁坦克(大坦克)日版",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Great Tank (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4361&n=L2Zjcm9tL3h5eC9UaHVuZGVyICYgTGlnaHRuaW5nIChVKSBbIV0ubmVz&t=%E5%AE%B6%E5%BA%AD%E6%89%93%E7%A0%96%E5%9D%97(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/xyx/2295a.png",
+    "img": "https://img.1990i.com/fcpic/xyx/2295a.png",
+    "name": "家庭打砖块(美版)",
+    "tag": [
+      "FC",
+      "小游戏",
+      "打砖块"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Thunder & Lightning (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4617&n=L2Zjcm9tL3lkYnMvV1dGIFdyZXN0bGVNYW5pYSBDaGFsbGVuZ2UgKEopIFshXS5uZXM=&t=WWF%E4%B8%96%E7%95%8C%E6%91%94%E8%A7%92%E5%A4%A7%E8%B5%9B(%E6%97%A5%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "WWF世界摔角大赛(日版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "摔角"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/WWF WrestleMania Challenge (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4873&n=L2Zjcm9tL3lkYnMvTmFtY28gQ2xhc3NpYyAoSikubmVz&t=%E5%8D%97%E6%A2%A6%E5%AE%AB%E9%AB%98%E5%B0%94%E5%A4%AB&ac=3&p=/fcpic/ydbs/1535a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/1535a.png",
+    "name": "南梦宫高尔夫",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "高尔夫"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Namco Classic (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3594&n=L2Zjcm9tL2Z4c2ovQ2h1dWthIFRhaXNlbiAoSikubmVz&t=%E4%B8%AD%E5%8D%8E%E5%A4%A7%E4%BB%99&ac=3&p=/fcpic/410a.png",
+    "img": "https://img.1990i.com/fcpic/410a.png",
+    "name": "中华大仙",
+    "tag": [
+      "FC",
+      "飞行射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/fxsj/Chuuka Taisen (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4106&n=L2Zjcm9tL3NqL0lyb24gVGFuayAoVSkgWyFdLm5lcw==&t=%E9%92%A2%E9%93%81%E5%9D%A6%E5%85%8B(%E5%A4%A7%E5%9D%A6%E5%85%8B)%E7%BE%8E%E7%89%88&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "钢铁坦克(大坦克)美版",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Iron Tank (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4362&n=L2Zjcm9tL3h5eC9Kb25nYm91IChKKSBbIV0ubmVz&t=%E5%BC%B9%E7%8F%A0%E9%BA%BB%E5%B0%86&ac=3&p=/fcpic/xyx/1111a.png",
+    "img": "https://img.1990i.com/fcpic/xyx/1111a.png",
+    "name": "弹珠麻将",
+    "tag": [
+      "FC",
+      "小游戏",
+      "打砖块"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Jongbou (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4618&n=L2Zjcm9tL3lkYnMvV1dGIFdyZXN0bGVNYW5pYSBDaGFsbGVuZ2UgKFUpIFshXS5uZXM=&t=WWF%E4%B8%96%E7%95%8C%E6%91%94%E8%A7%92%E5%A4%A7%E8%B5%9B(%E7%BE%8E%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "WWF世界摔角大赛(美版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "摔角"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/WWF WrestleMania Challenge (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4874&n=L2Zjcm9tL3lkYnMvTmFtY28gQ2xhc3NpYyAyIChKKS5uZXM=&t=%E5%8D%97%E6%A2%A6%E5%AE%AB%E9%AB%98%E5%B0%94%E5%A4%AB2&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "南梦宫高尔夫2",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "高尔夫"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Namco Classic 2 (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5130&n=L2Zjcm9tL2pzYnl6dy9EaWFibG8gKE5KMDM3KSAoQ2gpLm5lcw==&t=%E6%9A%97%E9%BB%91%E7%A0%B4%E5%9D%8F%E7%A5%9E(%E4%B8%AD%E6%96%87)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "暗黑破坏神(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/Diablo (NJ037) (Ch).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3339&n=L2Zjcm9tL2R6bXgvQ2FzdGxldmFuaWEgSUkgLSBTaW1vbidzIFF1ZXN0IChVKSBbIV0ubmVz&t=%E6%81%B6%E9%AD%94%E5%9F%8E2(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/360a.png",
+    "img": "https://img.1990i.com/fcpic/360a.png",
+    "name": "恶魔城2(美版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "恶魔城"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Castlevania II - Simon's Quest (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3595&n=L2Zjcm9tL2Z4c2ovVHdpbkJlZSAoSikgWyFdLm5lcw==&t=%E5%85%B5%E8%9C%82&ac=3&p=/fcpic/2382a.png",
+    "img": "https://img.1990i.com/fcpic/2382a.png",
+    "name": "兵蜂",
+    "tag": [
+      "FC",
+      "飞行射击",
+      "兵蜂"
+    ],
+    "nes": "https://file.1990i.com//fcrom/fxsj/TwinBee (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4107&n=L2Zjcm9tL3NqL1ByZWRhdG9yIChKKS5uZXM=&t=%E9%93%81%E8%A1%80%E6%88%98%E5%A3%AB(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/sj/1711a.png",
+    "img": "https://img.1990i.com/fcpic/sj/1711a.png",
+    "name": "铁血战士(日版)",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Predator (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4363&n=L2Zjcm9tL3h5eC9Bcmthbm9pZCAoSikubmVz&t=%E6%89%93%E7%A0%96%E5%9D%97(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/xyx/117a.png",
+    "img": "https://img.1990i.com/fcpic/xyx/117a.png",
+    "name": "打砖块(日版)",
+    "tag": [
+      "FC",
+      "小游戏",
+      "打砖块"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Arkanoid (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4619&n=L2Zjcm9tL3lkYnMvV1dGIFdyZXN0bGVNYW5pYSAtIFN0ZWVsIENhZ2UgQ2hhbGxlbmdlIChFKS5uZXM=&t=WWF%E6%8C%91%E6%88%98%E8%B5%9B(%E6%AC%A7%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "WWF挑战赛(欧版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "摔角"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/WWF WrestleMania - Steel Cage Challenge (E).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4875&n=L2Zjcm9tL3lkYnMvQmFuZGFpIEdvbGYgLSBDaGFsbGVuZ2UgUGViYmxlIEJlYWNoIChVKSBbIV0ubmVz&t=%E5%9C%86%E7%9F%B3%E6%B5%B7%E5%B2%B8%E9%AB%98%E5%B0%94%E5%A4%AB%E7%90%83%E6%8C%91%E6%88%98%E8%B5%9B&ac=3&p=/fcpic/ydbs/177a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/177a.png",
+    "name": "圆石海岸高尔夫球挑战赛",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "高尔夫"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Bandai Golf - Challenge Pebble Beach (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5131&n=L2Zjcm9tL2pzYnl6dy9bTkowNjVdIFp1aSBZb3UgSmkgWmhpIFRhbmcgU2FuIFphbmcuTkVT&t=%E6%9C%80%E6%B8%B8%E8%AE%B0-%E5%94%90%E4%B8%89%E8%97%8F(%E4%B8%AD%E6%96%87)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "最游记-唐三藏(中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/[NJ065] Zui You Ji Zhi Tang San Zang.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3340&n=L2Zjcm9tL2R6bXgvQWt1bWFqb3UgRGVuc2V0c3UgKEopIFshXS5uZXM=&t=%E6%81%B6%E9%AD%94%E5%9F%8E3(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/86a.png",
+    "img": "https://img.1990i.com/fcpic/86a.png",
+    "name": "恶魔城3(日版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "恶魔城"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Akumajou Densetsu (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3596&n=L2Zjcm9tL2Z4c2ovTW9lcm8gVHdpbkJlZSAtIENpbm5hbW9uIEhha2FzZSB3byBTdWt1ZSEgKEopLm5lcw==&t=%E5%85%B5%E8%9C%822(%E6%97%A5%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "兵蜂2(日版)",
+    "tag": [
+      "FC",
+      "飞行射击",
+      "兵蜂"
+    ],
+    "nes": "https://file.1990i.com//fcrom/fxsj/Moero TwinBee - Cinnamon Hakase wo Sukue! (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4108&n=L2Zjcm9tL3NqL1ByZWRhdG9yIChVKSBbIV0ubmVz&t=%E9%93%81%E8%A1%80%E6%88%98%E5%A3%AB(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/sj/1712a.png",
+    "img": "https://img.1990i.com/fcpic/sj/1712a.png",
+    "name": "铁血战士(美版)",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Predator (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4364&n=L2Zjcm9tL3h5eC9Bcmthbm9pZCAoVSkgWyFdLm5lcw==&t=%E6%89%93%E7%A0%96%E5%9D%97(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/xyx/118a.png",
+    "img": "https://img.1990i.com/fcpic/xyx/118a.png",
+    "name": "打砖块(美版)",
+    "tag": [
+      "FC",
+      "小游戏",
+      "打砖块"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Arkanoid (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4620&n=L2Zjcm9tL3lkYnMvV1dGIFdyZXN0bGVNYW5pYSAtIFN0ZWVsIENhZ2UgQ2hhbGxlbmdlIChVKSBbIV0ubmVz&t=WWF%E6%8C%91%E6%88%98%E8%B5%9B(%E7%BE%8E%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "WWF挑战赛(美版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "摔角"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/WWF WrestleMania - Steel Cage Challenge (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4876&n=L2Zjcm9tL3lkYnMvSnVtYm8gT3pha2kgbm8gSG9sZSBpbiBPbmUgUHJvZmVzc2lvbmFsIChKKS5uZXM=&t=%E5%B0%BE%E5%B4%8E%E9%AB%98%E5%B0%94%E5%A4%AB&ac=3&p=/fcpic/ydbs/1124a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/1124a.png",
+    "name": "尾崎高尔夫",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "高尔夫"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Jumbo Ozaki no Hole in One Professional (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3341&n=L2Zjcm9tL2R6bXgvQ2FzdGxldmFuaWEgSUlJIC0gRHJhY3VsYSdzIEN1cnNlIChFKSBbIV0ubmVz&t=%E6%81%B6%E9%AD%94%E5%9F%8E3(%E6%AC%A7%E7%89%88)&ac=3&p=/fcpic/361a.png",
+    "img": "https://img.1990i.com/fcpic/361a.png",
+    "name": "恶魔城3(欧版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "恶魔城"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Castlevania III - Dracula's Curse (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3597&n=L2Zjcm9tL2Z4c2ovU3RpbmdlciAoVSkgWyFdLm5lcw==&t=%E5%85%B5%E8%9C%822(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/2108a.png",
+    "img": "https://img.1990i.com/fcpic/2108a.png",
+    "name": "兵蜂2(美版)",
+    "tag": [
+      "FC",
+      "飞行射击",
+      "兵蜂"
+    ],
+    "nes": "https://file.1990i.com//fcrom/fxsj/Stinger (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4109&n=L2Zjcm9tL3NqL1NpbHZlciBFYWdsZSAoU2FjaGVuKSBbIV0ubmVz&t=%E9%93%B6%E8%89%B2%E7%A5%9E%E9%B9%B0%E3%80%90%E5%9C%A3%E8%B0%A6%E3%80%91&ac=3&p=/fcpic/sj/1993a.png",
+    "img": "https://img.1990i.com/fcpic/sj/1993a.png",
+    "name": "银色神鹰【圣谦】",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Silver Eagle (Sachen) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4365&n=L2Zjcm9tL3h5eC9Bcmthbm9pZCBJSSAoSikgKFByb3RvdHlwZSkubmVz&t=%E6%89%93%E7%A0%96%E5%9D%972(Prototype)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "打砖块2(Prototype)",
+    "tag": [
+      "FC",
+      "小游戏",
+      "打砖块"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Arkanoid II (J) (Prototype).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4621&n=L2Zjcm9tL3lkYnMvV1dGIFdyZXN0bGVNYW5pYSAoVSkgWyFdLm5lcw==&t=WWF%E7%96%AF%E7%8B%82%E6%90%8F%E6%96%97&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "WWF疯狂搏斗",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "摔角"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/WWF WrestleMania (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4877&n=L2Zjcm9tL3lkYnMvRmlnaHRpbmcgR29sZiAoSikubmVz&t=%E6%88%98%E6%96%97%E9%AB%98%E5%B0%94%E5%A4%AB(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/ydbs/749a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/749a.png",
+    "name": "战斗高尔夫(日版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "高尔夫"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Fighting Golf (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3342&n=L2Zjcm9tL2R6bXgvQ2FzdGxldmFuaWEgSUlJIC0gRHJhY3VsYSdzIEN1cnNlIChVKSBbIV0ubmVz&t=%E6%81%B6%E9%AD%94%E5%9F%8E3(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/362a.png",
+    "img": "https://img.1990i.com/fcpic/362a.png",
+    "name": "恶魔城3(美版)",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "恶魔城"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Castlevania III - Dracula's Curse (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3598&n=L2Zjcm9tL2Z4c2ovVHdpbkJlZSAzIC0gUG9rbyBQb2tvIERhaSBNYW91IChKKSBbIV0ubmVz&t=%E5%85%B5%E8%9C%823&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "兵蜂3",
+    "tag": [
+      "FC",
+      "飞行射击",
+      "兵蜂"
+    ],
+    "nes": "https://file.1990i.com//fcrom/fxsj/TwinBee 3 - Poko Poko Dai Maou (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3854&n=L2Zjcm9tL2dkL0FWIE1laSBTaGFvIE52IFpoYW4gU2hpIChVbmwpLm5lcw==&t=AV%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%88%98%E5%A3%AB&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "AV美少女战士",
+    "tag": [
+      "FC",
+      "格斗"
+    ],
+    "nes": "https://file.1990i.com//fcrom/gd/AV Mei Shao Nv Zhan Shi (Unl).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4110&n=L2Zjcm9tL3NqL1NweSBIdW50ZXIgKFUpIFshXS5uZXM=&t=%E9%97%B4%E8%B0%8D%E7%8C%8E%E4%BA%BA&ac=3&p=/fcpic/sj/2067a.png",
+    "img": "https://img.1990i.com/fcpic/sj/2067a.png",
+    "name": "间谍猎人",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Spy Hunter (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4366&n=L2Zjcm9tL3h5eC9Bcmthbm9pZCBJSSAoSikgW28xXS5uZXM=&t=%E6%89%93%E7%A0%96%E5%9D%972[o1]&ac=3&p=/fcpic/xyx/119a.png",
+    "img": "https://img.1990i.com/fcpic/xyx/119a.png",
+    "name": "打砖块2[o1]",
+    "tag": [
+      "FC",
+      "小游戏",
+      "打砖块"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Arkanoid II (J) [o1].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4622&n=L2Zjcm9tL3lkYnMvV1dGIEtpbmcgb2YgdGhlIFJpbmcgKFUpIFshcF0ubmVz&t=WWF%E9%87%91%E8%85%B0%E5%B8%A6&ac=3&p=/fcpic/ydbs/2508a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/2508a.png",
+    "name": "WWF金腰带",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "摔角"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/WWF King of the Ring (U) [!p].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4878&n=L2Zjcm9tL3lkYnMvTGVlIFRyZXZpbm8ncyBGaWdodGluZyBHb2xmIChVKSBbIV0ubmVz&t=%E6%88%98%E6%96%97%E9%AB%98%E5%B0%94%E5%A4%AB(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/ydbs/1246a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/1246a.png",
+    "name": "战斗高尔夫(美版)",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "高尔夫"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Lee Trevino's Fighting Golf (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3343&n=L2Zjcm9tL2R6bXgvQWt1bWFqb3UgU3BlY2lhbCAtIEJva3UgRHJhY3VsYS1rdW4gKEopIFshXS5uZXM=&t=%E6%81%B6%E9%AD%94%E5%9F%8E-%E7%8E%8B%E5%AD%90%E5%A4%96%E4%BC%A0&ac=3&p=/fcpic/88a.png",
+    "img": "https://img.1990i.com/fcpic/88a.png",
+    "name": "恶魔城-王子外传",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Akumajou Special - Boku Dracula-kun (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3599&n=L2Zjcm9tL2Z4c2ovVHdpbkJlZSAzIC0gUG9rbyBQb2tvIERhaSBNYW91IChKKSBbVCtDaGlfTVMgZW11bWF4XS5uZXM=&t=%E5%85%B5%E8%9C%823-%E4%B8%AD%E6%96%87&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "兵蜂3-中文",
+    "tag": [
+      "FC",
+      "飞行射击",
+      "兵蜂"
+    ],
+    "nes": "https://file.1990i.com//fcrom/fxsj/TwinBee 3 - Poko Poko Dai Maou (J) [T+Chi_MS emumax].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4111&n=L2Zjcm9tL3NqL1RodW5kZXJjYWRlIChVKSBbIV0ubmVz&t=%E9%9B%B7%E7%94%B5%E8%8A%82%E5%A5%8F&ac=3&p=/fcpic/sj/2299a.png",
+    "img": "https://img.1990i.com/fcpic/sj/2299a.png",
+    "name": "雷电节奏",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Thundercade (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4367&n=L2Zjcm9tL3h5eC9UaXRhbiAoSikubmVz&t=%E6%B3%B0%E5%9D%A6%E6%89%93%E7%A0%96%E5%9D%97&ac=3&p=/fcpic/xyx/2318a.png",
+    "img": "https://img.1990i.com/fcpic/xyx/2318a.png",
+    "name": "泰坦打砖块",
+    "tag": [
+      "FC",
+      "小游戏",
+      "打砖块"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Titan (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4623&n=L2Zjcm9tL3lkYnMvR2VraXRvdSBQcm8gV3Jlc3RsaW5nISEgLSBUb3Vrb24gRGVuc2V0c3UgKEopLm5lcw==&t=%E6%BF%80%E6%96%97%E6%96%97%E9%AD%82%E4%BC%A0%E8%AF%B4(Tecmo%E4%B8%96%E7%95%8C%E6%91%94%E8%A7%92)%E6%97%A5%E7%89%88&ac=3&p=/fcpic/ydbs/840a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/840a.png",
+    "name": "激斗斗魂传说(Tecmo世界摔角)日版",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "摔角"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Gekitou Pro Wrestling!! - Toukon Densetsu (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4879&n=L2Zjcm9tL3lkYnMvSmFjayBOaWNrbGF1cycgR3JlYXRlc3QgMTggSG9sZXMgb2YgTWFqb3IgQ2hhbXBpb25zaGlwIEdvbGYgKFUpIFshXS5uZXM=&t=%E6%9D%B0%E5%85%8B18%E6%B4%9E%E9%AB%98%E5%B0%94%E5%A4%AB%E9%94%A6%E6%A0%87%E8%B5%9B&ac=3&p=/fcpic/ydbs/1081a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/1081a.png",
+    "name": "杰克18洞高尔夫锦标赛",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "高尔夫"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Jack Nicklaus' Greatest 18 Holes of Major Championship Golf (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5135&n=L2Zjcm9tL2pzYnl6dy9bTkowOThdIFp1aSBaaG9uZyBIdWFuIFhpYW5nIElWIEd1YW5nIFl1IEFuIFNodWkgSmluZyBGZW4gWmhlbmcgKEMpLk5FUw==&t=%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B3-%E5%85%89%E4%B8%8E%E6%9A%97%E6%B0%B4%E6%99%B6%E7%BA%B7%E4%BA%89%E4%B8%AD%E6%96%87(%E5%A4%AA%E7%A9%BA%E6%88%98%E5%A3%AB-%E5%85%89%E4%B8%8E%E6%9A%97%E6%B0%B4%E6%99%B6%E7%BA%B7%E4%BA%89%E4%B8%AD%E6%96%87)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "最终幻想-光与暗水晶纷争中文(太空战士-光与暗水晶纷争中文)",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/[NJ098] Zui Zhong Huan Xiang IV Guang Yu An Shui Jing Fen Zheng (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=25362&n=L2Zjcm9tL3NqL2hkbDFoaC5uZXM=&t=%E9%AD%82%E6%96%97%E7%BD%97%E6%97%A5%E7%89%88%E6%B1%89%E5%8C%96&ac=3&p=/fcpic/sj/436a.png",
+    "img": "https://img.1990i.com/fcpic/sj/436a.png",
+    "name": "\n\t\t\t\t\t\t\t魂斗罗日版汉化\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "射击",
+      "魂斗罗"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/hdl1hh.nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3582&n=L2Zjcm9tL2R6bXgvRHJhZ29uIEZpZ2h0ZXIgKEopLm5lcw==&t=%E9%BE%99%E6%88%98%E5%A3%AB(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/596a.png",
+    "img": "https://img.1990i.com/fcpic/596a.png",
+    "name": "\n\t\t\t\t\t\t\t龙战士(日版)\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Dragon Fighter (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4094&n=L2Zjcm9tL3NqL1N1cGVyIFR1cnJpY2FuIChFKSBbIV0ubmVz&t=%E8%B6%85%E7%BA%A7%E6%88%98%E5%A3%AB&ac=3&p=/fcpic/sj/2183a.png",
+    "img": "https://img.1990i.com/fcpic/sj/2183a.png",
+    "name": "\n\t\t\t\t\t\t\t超级战士\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Super Turrican (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4350&n=L2Zjcm9tL3h5eC9DeWJlcm5vaWQgLSBUaGUgRmlnaHRpbmcgTWFjaGluZSAoVSkgWyFdLm5lcw==&t=%E6%88%98%E6%96%97%E6%9C%BA%E5%99%A8&ac=3&p=/fcpic/xyx/462a.png",
+    "img": "https://img.1990i.com/fcpic/xyx/462a.png",
+    "name": "\n\t\t\t\t\t\t\t战斗机器\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "小游戏"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Cybernoid - The Fighting Machine (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4606&n=L2Zjcm9tL3lkYnMvRXhjaXRpbmcgQm94aW5nIChKKS5uZXM=&t=%E7%81%AB%E6%9A%B4%E6%8B%B3%E5%87%BB&ac=3&p=/fcpic/ydbs/668a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/668a.png",
+    "name": "\n\t\t\t\t\t\t\t火暴拳击\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "拳击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Exciting Boxing (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4862&n=L2Zjcm9tL3lkYnMvR29hbCEgVHdvIChVKSBbIV0ubmVz&t=%E7%87%83%E7%83%A7%E8%81%8C%E4%B8%9A%E8%B6%B3%E7%90%832(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/ydbs/863a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/863a.png",
+    "name": "\n\t\t\t\t\t\t\t燃烧职业足球2(美版)\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "足球"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Goal! Two (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5118&n=L2Zjcm9tL2pzYnl6dy9bTkowMDZdIFNodSBNYSBaaGFuIER1aSBJSSAoQykuTkVT&t=%E6%95%B0%E7%A0%81%E6%88%98%E9%98%9F2(%E4%B8%AD%E6%96%87)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "\n\t\t\t\t\t\t\t数码战队2(中文)\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/[NJ006] Shu Ma Zhan Dui II (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3570&n=L2Zjcm9tL2R6bXgvQ2hvdWppbiBTZW50YWkgLSBKZXRtYW4gKEopLm5lcw==&t=%E9%B8%9F%E4%BA%BA%E6%88%98%E9%98%9F&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "\n\t\t\t\t\t\t\t鸟人战队\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Choujin Sentai - Jetman (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4082&n=L2Zjcm9tL3NqL0xheWxhIChKKSBbIV0ubmVz&t=%E8%95%BE%E6%8B%89&ac=3&p=/fcpic/sj/1244a.png",
+    "img": "https://img.1990i.com/fcpic/sj/1244a.png",
+    "name": "\n\t\t\t\t\t\t\t蕾拉\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Layla (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4338&n=L2Zjcm9tL3h5eC9OaW5qYSBLdW4gKEopLm5lcw==&t=%E5%BF%8D%E8%80%85%E5%90%9B&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "\n\t\t\t\t\t\t\t忍者君\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "小游戏"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Ninja Kun (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4594&n=L2Zjcm9tL3lkYnMvRmFtaWx5IFRyYWluZXIgNyAtIERhaXVuZG91a2FpIChKKSBbIV0ubmVz&t=%E5%AE%B6%E5%BA%AD%E8%AE%AD%E7%BB%83%E8%80%857%20-%20%E5%A4%A7%E8%BF%90%E5%8A%A8%E4%BC%9A(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/ydbs/720a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/720a.png",
+    "name": "\n\t\t\t\t\t\t\t家庭训练者7 - 大运动会(日版)\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "家庭训练者"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Family Trainer 7 - Daiundoukai (J) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4850&n=L2Zjcm9tL3lkYnMvVGVjbW8gQm93bCAoSikubmVz&t=Tecmo%E7%BE%8E%E5%BC%8F%E8%B6%B3%E7%90%83(%E6%97%A5%E7%89%88)&ac=3&p=/fcpic/ydbs/2238a.png",
+    "img": "https://img.1990i.com/fcpic/ydbs/2238a.png",
+    "name": "\n\t\t\t\t\t\t\tTecmo美式足球(日版)\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "足球"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Tecmo Bowl (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=5106&n=L2Zjcm9tL2pzYnl6dy9Zb3UgTGluZyBMaWUgQ2hlIChFUy0xMTA4KSAoQykubmVz&t=%E5%B9%BD%E7%81%B5%E5%88%97%E8%BD%A6(%E4%B8%AD%E6%96%87)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "\n\t\t\t\t\t\t\t幽灵列车(中文)\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "角色扮演",
+      "中文"
+    ],
+    "nes": "https://file.1990i.com//fcrom/jsbyzw/You Ling Lie Che (ES-1108) (C).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3315&n=L2Zjcm9tL2R6bXgvU2hhZG93IFdhcnJpb3JzIEVwaXNvZGUgSUkgLSBUaGUgRGFyayBTd29yZCBvZiBDaGFvcyAoRSkgWyFdLm5lcw==&t=%E5%BF%8D%E8%80%85%E9%BE%99%E5%89%91%E4%BC%A02(%E6%AC%A7%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "\n\t\t\t\t\t\t\t忍者龙剑传2(欧版)\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "动作冒险",
+      "忍者龙剑传"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Shadow Warriors Episode II - The Dark Sword of Chaos (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3571&n=L2Zjcm9tL2R6bXgvQ2hvdWppbiBTZW50YWkgLSBKZXRtYW4gKEopIFtUK0NoaV0ubmVz&t=%E9%B8%9F%E4%BA%BA%E6%88%98%E9%98%9F-%E4%B8%AD%E6%96%87&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "\n\t\t\t\t\t\t\t鸟人战队-中文\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Choujin Sentai - Jetman (J) [T+Chi].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4083&n=L2Zjcm9tL3NqL01pc3Npb24gLSBJbXBvc3NpYmxlIChVKSBbIV0ubmVz&t=%E8%99%8E%E8%83%86%E5%A6%99%E7%AE%97&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "\n\t\t\t\t\t\t\t虎胆妙算\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "射击"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Mission - Impossible (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4070&n=L2Zjcm9tL3NqL0NhYmFsIChVKSBbIV0ubmVz&t=%E5%8B%87%E5%A3%AB%E4%BB%AC&ac=3&p=/fcpic/sj/325a.png",
+    "img": "https://img.1990i.com/fcpic/sj/325a.png",
+    "name": "\n\t\t\t\t\t\t\t勇士们\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "射击",
+      "第一人称"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Cabal (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4326&n=L2Zjcm9tL3h5eC9QaW5iYWxsIFF1ZXN0IChFKSBbIV0ubmVz&t=%E5%BC%B9%E7%8F%A0%E5%8F%B0%E9%AB%98%E6%89%8B(%E6%AC%A7%E7%89%88)&ac=3&p=/fcpic/xyx/1682a.png",
+    "img": "https://img.1990i.com/fcpic/xyx/1682a.png",
+    "name": "\n\t\t\t\t\t\t\t弹珠台高手(欧版)\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "小游戏",
+      "弹珠台"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Pinball Quest (E) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4582&n=L2Zjcm9tL3lkYnMvRmFtaWx5IFRyYWluZXIgMTAgLSBSYWkgUmFpISBLeW9uc2hpcyAtIEJhYnkgS3lvbnNoaSBubyBBbWlkYSBEYWlib3VrZW4gKEopLm5lcw==&t=%E5%AE%B6%E5%BA%AD%E8%AE%AD%E7%BB%83%E8%80%8510%20-%20%E5%B0%8F%E5%83%B5%E5%B0%B8%E7%9A%84%E6%A2%AF%E7%BA%A7%E5%A4%A7%E5%86%92%E9%99%A9&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "\n\t\t\t\t\t\t\t家庭训练者10 - 小僵尸的梯级大冒险\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "家庭训练者"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Family Trainer 10 - Rai Rai! Kyonshis - Baby Kyonshi no Amida Daibouken (J).nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4838&n=L2Zjcm9tL3lkYnMvMTAtWWFyZCBGaWdodCAoVSkgWyFdLm5lcw==&t=10%E7%A0%81%E7%BE%8E%E5%BC%8F%E8%B6%B3%E7%90%83%E5%A4%A7%E8%B5%9B(%E7%BE%8E%E7%89%88)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "\n\t\t\t\t\t\t\t10码美式足球大赛(美版)\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "足球"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/10-Yard Fight (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=3559&n=L2Zjcm9tL2R6bXgvQ29ucXVlc3Qgb2YgdGhlIENyeXN0YWwgUGFsYWNlIChVKSBbIV0ubmVz&t=%E9%AD%94%E5%A4%A9%E7%AB%A5%E5%AD%90(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/435a.png",
+    "img": "https://img.1990i.com/fcpic/435a.png",
+    "name": "\n\t\t\t\t\t\t\t魔天童子(美版)\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "动作冒险"
+    ],
+    "nes": "https://file.1990i.com//fcrom/dzmx/Conquest of the Crystal Palace (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4071&n=L2Zjcm9tL3NqL1B1bmlzaGVyLCBUaGUgKFUpIFshXS5uZXM=&t=%E6%83%A9%E7%BD%9A%E8%80%85(%E4%B9%8C%E5%85%B9)&ac=3&p=/fcpic/sj/1739a.png",
+    "img": "https://img.1990i.com/fcpic/sj/1739a.png",
+    "name": "\n\t\t\t\t\t\t\t惩罚者(乌兹)\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "射击",
+      "第一人称"
+    ],
+    "nes": "https://file.1990i.com//fcrom/sj/Punisher, The (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4327&n=L2Zjcm9tL3h5eC9QaW5iYWxsIFF1ZXN0IChVKSBbIV0ubmVz&t=%E5%BC%B9%E7%8F%A0%E5%8F%B0%E9%AB%98%E6%89%8B(%E7%BE%8E%E7%89%88)&ac=3&p=/fcpic/xyx/1682a.png",
+    "img": "https://img.1990i.com/fcpic/xyx/1682a.png",
+    "name": "\n\t\t\t\t\t\t\t弹珠台高手(美版)\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "小游戏",
+      "弹珠台"
+    ],
+    "nes": "https://file.1990i.com//fcrom/xyx/Pinball Quest (U) [!].nes"
+  },
+  {
+    "url": "https://www.yikm.net/play?id=4583&n=L2Zjcm9tL3lkYnMvRmFtaWx5IFRyYWluZXIgMTAgLSBSYWkgUmFpISBLeW9uc2hpcyAgQmFieSBLeW9uc2hpIG5vIEFtaWRhIERhaWJvdWtlbi5uZXM=&t=%E5%AE%B6%E5%BA%AD%E8%AE%AD%E7%BB%83%E8%80%8510%20-%20%E5%B0%8F%E5%83%B5%E5%B0%B8%E7%9A%84%E6%A2%AF%E7%BA%A7%E5%A4%A7%E5%86%92%E9%99%A9(Prototype)&ac=3&p=",
+    "img": "https://img.1990i.com/fcpic/1000a.png",
+    "name": "\n\t\t\t\t\t\t\t家庭训练者10 - 小僵尸的梯级大冒险(Prototype)\n\t\t\t\t\t\t\t\t",
+    "tag": [
+      "FC",
+      "运动比赛",
+      "家庭训练者"
+    ],
+    "nes": "https://file.1990i.com//fcrom/ydbs/Family Trainer 10 - Rai Rai! Kyonshis  Baby Kyonshi no Amida Daibouken.nes"
+  }
+]
