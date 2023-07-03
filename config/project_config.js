@@ -20,6 +20,7 @@ class Project{
 const projects = {
     vue: {},
     static: {
+        software: new Project("software.collection.html", "software", "软件分享", type.Static),
         bip39: new Project("bip39/bip39-standalone.html", "bip39", "生成加密货币 TOKEN 的工具", type.Static),
         FD: new Project("FakeData_xiaobai/index.html", "FD", "生成随机的虚假的训练变化曲线", type.Static),
         gallery: new Project("galleryAni/index.html", "Gallery", "动态相册", type.Static),

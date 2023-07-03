@@ -5,6 +5,7 @@
 
 | Link | Descript |
 | -------- | -------- |
+| [software](./static_web//software.collection.html) | 软件分享 |
 | [bip39](./static_web//bip39/bip39-standalone.html) | 生成加密货币 TOKEN 的工具 |
 | [FD](./static_web//FakeData_xiaobai/index.html) | 生成随机的虚假的训练变化曲线 |
 | [Gallery](./static_web//galleryAni/index.html) | 动态相册 |
