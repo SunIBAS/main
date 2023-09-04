@@ -33,6 +33,7 @@ const projects = {
         map_fixed: new Project("map_fixed/index.html", "map_fixed", "用于手动校准”地图图片“的工具", type.Static),
         "nes-game": new Project("nes-game/index.html", "nes-game", "nes 游戏集合", type.Static),
         "vue-layui": new Project("vue-layui/index.html", "vue-layui", "使用 vue 和 layui 编写的框架 ", type.Static),
+        "nasa-wget-download": new Project("wget_dl_nasa/index.html", "wget_dl_nasa", "使用 wget 下载 nasa 文件 ", type.Static),
     },
     other: {
         "singleExe": new Project("https://github.com/IBAS0742/singleExe", "singleExe", "Windows下的单文工具", type.Other),
