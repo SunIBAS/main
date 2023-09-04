@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美化HTML表单</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        button,
+        input[type="text"],
+        input[type="password"],
+        input[type="file"],
+        input[type="radio"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2><a href="https://ladsweb.modaps.eosdis.nasa.gov/tools-and-services/data-download-scripts/#wget">NASA wget</a></h2>
+    <h2><a href="./wget.exe">下载 wget-windows.exe</a></h2>
+    <div>
+        <div class="form-group">
+            <label for="username">用户名:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">密码:</label>
+            <input type="text" id="password" name="password" required>
+        </div>
+
+        <div class="form-group">
+            <label for="txtFile">上传txt文件:</label>
+            <input type="file" id="txtFile" name="txtFile" accept=".txt" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">分隔符:</label>
+            <input type="text" disabled value="LABEL=">
+        </div>
+
+<!--        <div class="form-group">-->
+<!--            <label for="dropdown">请选择分割符：</label>-->
+<!--            <select id="dropdown" name="dropdown">-->
+<!--                <option value="option1">选项1</option>-->
+<!--                <option value="option2">选项2</option>-->
+<!--                <option value="option3">选项3</option>-->
+<!--                <option value="option4">选项4</option>-->
+<!--            </select>-->
+<!--        </div>-->
+
+        <div class="form-group">
+            <button id="dl">生成下载文件</button>
+        </div>
+
+        <div class="form-group">
+            <button id="check">生成检查脚本</button>
+        </div>
+    </div>
+</div>
+<script>
+    let toWget = link => {
+        let user = document.getElementById('username').value;
+        let password = document.getElementById('password').value;
+        let sp = link.split('LABEL=');
+        if (sp.length < 2) {
+            return '';
+        } else {
+            let filename = sp[1].split('&')[0];
+            return `if not EXIST "${filename}" wget --no-check-certificate --load-cookies urs_cookies --save-cookies urs_cookies --keep-session-cookies --user=${user} --password=${password} "${link}" -O "${filename}"`;
+        }
+    }
+    let toCheck = (link, fname) => {
+        let sp = link.split('LABEL=');
+        if (sp.length < 2) {
+            return '';
+        } else {
+            let filename = sp[1].split('&')[0];
+            return `if not EXIST "${filename}" echo ${filename} >> ${fname}`;
+        }
+    }
+    /**
+     * @param content 要保存的内容
+     * @param filename 文件名
+     */
+    var funDownload = function (content, filename) {
+        // 创建隐藏的可下载链接
+        var eleLink = document.createElement('a');
+        eleLink.download = filename;
+        eleLink.style.display = 'none';
+        // 字符内容转变成blob地址
+        var blob = new Blob([content]);
+        eleLink.href = URL.createObjectURL(blob);
+        // 触发点击
+        document.body.appendChild(eleLink);
+        eleLink.click();
+        // 然后移除
+        document.body.removeChild(eleLink);
+    };
+    function toDownload() {
+        const file = document.getElementById('txtFile').files[0];
+
+        if (file) {
+            const reader = new FileReader();
+
+            reader.onload = function (e) {
+                let ret = e.target.result.split('\n').map(_=>_.trim()).filter(_=>_).map(toWget).join('\r\n');
+                funDownload(ret, `dl-${new Date().getTime()}.txt`);
+            };
+
+            reader.readAsText(file, 'UTF-8');
+        } else {
+            alert('请选择一个txt文件');
+        }
+    };
+    function check() {
+        const file = document.getElementById('txtFile').files[0];
+
+        if (file) {
+            const reader = new FileReader();
+
+            reader.onload = function (e) {
+                let fname = prompt('报告文件名称','report.txt')
+                if (!fname) {
+                    fname = 'report.txt';
+                }
+                let ret = `echo loss file>${fname}\r\n` + e.target.result.split('\n').map(_=>_.trim()).filter(_=>_).map(_ => {
+                    return toCheck(_, fname);
+                }).join('\r\n');
+                funDownload(ret, `check-${new Date().getTime()}.txt`);
+            };
+
+            reader.readAsText(file, 'UTF-8');
+        } else {
+            alert('请选择一个txt文件');
+        }
+    };
+    document.getElementById('dl').onclick = toDownload;
+    document.getElementById('check').onclick = check;
+</script>
+</body>
+</html>
