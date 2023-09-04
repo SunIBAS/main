@@ -18,6 +18,7 @@
 | [map_fixed](./static_web//map_fixed/index.html) | 用于手动校准”地图图片“的工具 |
 | [nes-game](./static_web//nes-game/index.html) | nes 游戏集合 |
 | [vue-layui](./static_web//vue-layui/index.html) | 使用 vue 和 layui 编写的框架  |
+| [wget_dl_nasa](./static_web//wget_dl_nasa/index.html) | 使用 wget 下载 nasa 文件  |
 
 ## 外部链接
 

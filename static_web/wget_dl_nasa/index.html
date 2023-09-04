@@ -41,6 +41,7 @@
             margin-bottom: 10px;
             border: 1px solid #ccc;
             border-radius: 3px;
+            box-sizing: border-box;
         }
         select {
             width: 100%;
@@ -96,6 +97,12 @@
             <button id="check">生成检查脚本</button>
         </div>
     </div>
+</div>
+<div class="container">
+    <div>wget 要设置为全局变量，或者放到和 <span style="color: red;">下载文件</span> 同一个目录也可以</div>
+    <br>
+    <img src="./readme1.jpg" style="width: 100%;" alt="">
+    <img src="./readme2.jpg" style="width: 100%;" alt="">
 </div>
 <script>
     let toWget = link => {
