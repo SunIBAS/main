@@ -1,2 +1,0 @@
-# nes-game
-nes games
