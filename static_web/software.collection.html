@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>列表页面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        h2, p {
+            margin: 0;
+            padding: 0.5em 0;
+        }
+        @media (max-width: 600px) {
+            body {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>列表内容</h1>
+    <ul id="list">
+<!--        <li>-->
+<!--            <h2>标题 1</h2>-->
+<!--            <p>这是标题 1 对应的段落。</p>-->
+<!--        </li>-->
+    </ul>
+</div>
+</body>
+<script>
+    let applications = [
+        {
+            link: 'https://github.com/IBAS0742/singleExe/blob/master/360net.exe',
+            name: '360net',
+            description: '360 网络修复工具（单文件版）'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/blob/master/JPEG2PDF.exe',
+            name: 'JPEG2PDF.exe',
+            description: '将图片合并为 pdf（单文件版）'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/blob/master/flv.exe',
+            name: 'flv.exe',
+            description: 'flv 播放工具（单文件版）'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/blob/master/mt.exe',
+            name: 'mt.exe',
+            description: 'Mt.exe文件是生成已签名文件和目录的工具。 它在 Microsoft Windows 软件开发工具包 (SDK) 中提供。 Mt.exe要求清单中引用的文件与清单位于同一目录中。（https://learn.microsoft.com/zh-cn/windows/win32/sbscs/mt-exe?redirectedfrom=MSDN）'
+        },
+        // {
+        //     link: 'https://github.com/IBAS0742/singleExe/blob/master/pdftoimage.exe',
+        //     name: 'pdftoimage.exe',
+        //     description: '将 pdf 每页转成一张图片（单文件版）'
+        // },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/blob/master/player1.exe',
+            name: 'player1.exe',
+            description: '视频播放器（单文件版）'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.1',
+            name: 'adb.exe',
+            description: 'adb 工具'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.2',
+            name: 'ffmpeg',
+            description: 'ffmpeg'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.3',
+            name: 'NES',
+            description: 'NES'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.4',
+            name: 'APK 反编译工具集',
+            description: 'APK 反编译工具集'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.5',
+            name: 'SPLASH',
+            description: '视频播放器'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.6',
+            name: 'rufus',
+            description: 'U盘启动器制作工具'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.7',
+            name: 'AutoRuns',
+            description: 'https://learn.microsoft.com/zh-cn/sysinternals/downloads/autoruns'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.8',
+            name: 'bandicam',
+            description: '录频工具'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.9',
+            name: 'Bilibili下载工具',
+            description: 'Bilibili下载工具'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.10',
+            name: 'Chrome',
+            description: 'chrome 绿色版'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.11',
+            name: 'depends',
+            description: 'depends windows 依赖查看工具'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.12',
+            name: 'Fiddler Web Debugger',
+            description: 'Fiddler Web Debugger'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.13',
+            name: 'FileZilla 绿色版',
+            description: 'FileZilla 绿色版'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.14',
+            name: 'IL Spy',
+            description: 'IL Spy'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/V0.15',
+            name: 'UltraISO',
+            description: 'UltraISO'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.16',
+            name: 'shortcut',
+            description: 'shortcut'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.17',
+            name: 'treesize',
+            description: '查看磁盘内容分布'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.18',
+            name: 'ts助手',
+            description: 'ts助手'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.19',
+            name: 'Wave Editor',
+            description: 'Wave Editor'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.20',
+            name: 'winhex',
+            description: '十六进制查看工具'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.21',
+            name: 'pdftoimage.exe',
+            description: '将 pdf 每页转成一张图片（单文件版）'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.22',
+            name: 'deskpins',
+            description: 'deskpins 桌面置顶工具（单文件版）'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.23',
+            name: 'convertDocToDocx.jar',
+            description: 'doc文件转docx文件JAVA工具（单文件版）'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.24',
+            name: 'ScreenToGif',
+            description: '录频为gif的工具（单文件版）'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.25',
+            name: 'SpaceSniffer.exe',
+            description: '磁盘大小可视化工具（单文件版）'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.26',
+            name: 'TinyTask1.75.exe',
+            description: '录制鼠标键盘操作，游戏中无效（单文件版）'
+        },
+        {
+            link: 'https://github.com/IBAS0742/singleExe/releases/tag/v0.27',
+            name: 'flash player',
+            description: 'flash player（单文件版）'
+        },
+    ]
+    window.onload = function () {
+        document.getElementById('list').innerHTML = applications.map(app => {
+            return `<li>
+            <h2><a href="${app.link}" target="_blank">${app.name}</a></h2>
+            <p>${app.description}</p>
+        </li>`
+        }).join('\r\n');
+    }
+</script>
+</html>

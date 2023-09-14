@@ -1,0 +1,27 @@
+name: Build Vue Project
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Commit to special path
+        env:
+          # 仓库用户名
+          REPO_USERNAME: ""
+          # GitHub Pages仓库名
+          DIST_REPO: ""
+          # GitHub Token
+          GITHUB_TOKEN: ${{ secrets.ACT_TOKEN }}
+        run: |
+          rm -rf .git
+          git config --global user.email "1134098699@qq.com"
+          git config --global user.name "ibas"
+          git init && git add .
+          git commit -m "build at $(date +'%Y-%m-%d %H:%M:%S')"
+          git push --force --quiet https://$GITHUB_TOKEN@github.com/SunIBAS/main.git master:views
