@@ -24,6 +24,8 @@
 
 | Link | Descript |
 | -------- | -------- |
+| [💾静态页面](https://sunibas.github.io/Page-Static-Sources/) | 找不到的一些静态页面在这里 |
+| [⚒️工具页面](https://sunibas.github.io/Page-Utils/) | 找不到的一些工具页面在这里 |
 | [singleExe](https://github.com/IBAS0742/singleExe) | Windows下的单文工具 |
 | [WebMapDev](./static_web//WebMapDev/README.md) | 自己开发的一些地图相关的插件 |
 | [2019-nCoV-Datas](https://github.com/SunIBAS/2019-nCoV-Datas) | 三年疫情做过的一些内容 |

@@ -40,6 +40,8 @@ const projects = {
         "nasa-wget-download": new Project("https://sunibas.github.io/Page-Utils/wget_dl_nasa/index.html", "wget_dl_nasa", "使用 wget 下载 nasa 文件 ", type.Other),
     },
     other: {
+        "静态页面": new Project("https://sunibas.github.io/Page-Static-Sources/", "💾静态页面", "找不到的一些静态页面在这里", type.Other),
+        "工具页面": new Project("https://sunibas.github.io/Page-Utils/", "⚒️工具页面", "找不到的一些工具页面在这里", type.Other),
         "singleExe": new Project("https://github.com/IBAS0742/singleExe", "singleExe", "Windows下的单文工具", type.Other),
         "WebMapDev": new Project("WebMapDev/README.md", "WebMapDev", "自己开发的一些地图相关的插件", type.Static),
         "2019-nCoV-Datas": new Project("https://github.com/SunIBAS/2019-nCoV-Datas", "2019-nCoV-Datas","三年疫情做过的一些内容", type.Other),
