@@ -21,7 +21,7 @@ jobs:
         run: |
           rm -rf .git
           git config --global user.email "1134098699@qq.com"
-          git config --global user.name "ibas"
+          git config --global user.name "sunIBAS"
           git init && git add .
           git commit -m "build at $(date +'%Y-%m-%d %H:%M:%S')"
           git push --force --quiet https://$GITHUB_TOKEN@github.com/SunIBAS/main.git master:views
